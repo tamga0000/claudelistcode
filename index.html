@@ -1,0 +1,1771 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="100+ mã lệnh Claude đầy đủ: 15 Prompt Codes cho Claude.ai (Writing + Artifacts) và 56 Slash Commands tích hợp sẵn + 36 lệnh tuỳ chỉnh phổ biến cho Claude Code CLI. Có dữ liệu before/after thực chiến và tải về miễn phí.">
+<title>List Mã Claude — 100+ Prompt Codes & Slash Commands 2026 — Cường Mê AI</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+:root{
+  --primary:#fa520f;--primary-deep:#cc3a05;--on-primary:#ffffff;
+  --sunshine-300:#ffd06a;--sunshine-500:#ffb83e;--sunshine-700:#ffa110;--yellow-saturated:#ffd900;
+  --cream:#fff8e0;--cream-light:#fffaeb;--cream-deeper:#fff0c2;--beige-deep:#e6d5a8;
+  --canvas:#ffffff;--surface:#fafafa;--surface-code:#1c1c1e;
+  --hairline:#e5e5e5;--hairline-soft:#ededed;--hairline-strong:#c7c7c7;
+  --ink:#1f1f1f;--ink-tint:#3d3d3d;--slate:#4a4a4a;--steel:#6a6a6a;--stone:#8a8a8a;--muted:#a8a8a8;
+  --on-dark:#ffffff;--on-dark-muted:#a8a8a8;
+  --font-display:'Fraunces','PP Editorial Old','Times New Roman',Georgia,serif;
+  --font-ui:'Inter',ui-sans-serif,system-ui,-apple-system,sans-serif;
+  --font-mono:'JetBrains Mono','SF Mono',Menlo,Consolas,monospace;
+  --r-sm:6px;--r-md:8px;--r-lg:12px;--r-xl:16px;--r-full:9999px;
+  --s-xs:8px;--s-sm:12px;--s-md:16px;--s-lg:20px;--s-xl:24px;--s-xxl:32px;--s-xxxl:40px;--s-section:64px;--s-section-lg:96px;
+  --maxw:760px;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth;-webkit-text-size-adjust:100%}
+body{font-family:var(--font-ui);font-size:17px;line-height:1.6;color:var(--ink);background:var(--surface);-webkit-font-smoothing:antialiased}
+.wrap{max-width:var(--maxw);margin:0 auto;padding:0 var(--s-xl)}
+
+/* ---------- Hero ---------- */
+.hero{background:radial-gradient(120% 140% at 80% -20%, var(--sunshine-300) 0%, rgba(255,208,106,0) 55%),var(--cream);border-bottom:1px solid var(--beige-deep);padding:var(--s-section-lg) 0 var(--s-section)}
+.eyebrow{font-size:11px;font-weight:600;letter-spacing:1px;text-transform:uppercase;color:var(--primary);margin-bottom:var(--s-md)}
+.hero h1{font-family:var(--font-display);font-weight:400;font-size:clamp(36px,6vw,58px);line-height:1.08;letter-spacing:-1px;color:var(--ink);margin-bottom:var(--s-lg)}
+.hero .lead{font-size:19px;line-height:1.5;color:var(--ink-tint);max-width:60ch;margin-bottom:var(--s-xl)}
+.hero .meta{display:flex;flex-wrap:wrap;gap:var(--s-sm);align-items:center;font-size:13px;color:var(--steel)}
+.badge{display:inline-flex;align-items:center;gap:5px;font-size:13px;font-weight:600;background:var(--cream-deeper);color:var(--ink);padding:4px 10px;border-radius:var(--r-full)}
+.badge.orange{background:var(--primary);color:var(--on-primary)}
+.badge.green{background:#dcfce7;color:#15803d}
+.badge.purple{background:#ede9fe;color:#5b21b6}
+.badge svg{width:13px;height:13px}
+
+/* ---------- Content ---------- */
+main{padding:var(--s-section) 0}
+section{margin-bottom:var(--s-xxxl)}
+h2{font-family:var(--font-ui);font-weight:500;font-size:30px;line-height:1.2;letter-spacing:-.5px;color:var(--ink);margin:var(--s-xxl) 0 var(--s-md);scroll-margin-top:30px}
+h3{font-family:var(--font-ui);font-weight:600;font-size:21px;line-height:1.3;color:var(--ink);margin:var(--s-xl) 0 var(--s-sm)}
+p{margin-bottom:var(--s-md);color:var(--ink-tint)}
+a{color:var(--primary);text-decoration:none}
+a:hover{text-decoration:underline}
+ul,ol{margin:0 0 var(--s-md) var(--s-lg);color:var(--ink-tint)}
+li{margin-bottom:8px}
+strong{color:var(--ink);font-weight:600}
+
+/* check-list */
+ul.check{list-style:none;margin-left:0}
+ul.check li{position:relative;padding-left:30px}
+ul.check li svg{position:absolute;left:0;top:3px;width:18px;height:18px;color:var(--primary)}
+
+/* ---------- Table of contents ---------- */
+.toc{background:var(--cream);border:1px solid var(--beige-deep);border-radius:var(--r-lg);padding:var(--s-xl);margin:var(--s-xl) 0 var(--s-section)}
+.toc .label{font-size:11px;font-weight:600;letter-spacing:1px;text-transform:uppercase;color:var(--primary);margin-bottom:var(--s-sm);display:flex;align-items:center;gap:6px}
+.toc .label svg{width:14px;height:14px}
+.toc ol{margin:0;list-style:none;counter-reset:toc}
+.toc li{counter-increment:toc;margin-bottom:8px;padding-left:30px;position:relative}
+.toc li::before{content:counter(toc,decimal-leading-zero);position:absolute;left:0;top:1px;font-family:var(--font-mono);font-size:13px;color:var(--primary);font-weight:500}
+.toc a{color:var(--ink);font-weight:500}
+
+/* ---------- Step cards ---------- */
+.step{background:var(--canvas);border:1px solid var(--hairline-soft);border-radius:var(--r-lg);padding:var(--s-xl);margin-bottom:var(--s-md);box-shadow:rgba(0,0,0,0.04) 0px 4px 12px;position:relative}
+.step .step-num{display:inline-flex;align-items:center;justify-content:center;width:34px;height:34px;border-radius:var(--r-md);background:var(--primary);color:var(--on-primary);font-family:var(--font-display);font-size:18px;line-height:1;margin-bottom:var(--s-sm)}
+.step h3{margin-top:0}
+
+/* ---------- Callout boxes ---------- */
+.box{border-radius:var(--r-md);padding:var(--s-md) var(--s-md) var(--s-md) 52px;margin:var(--s-lg) 0;position:relative;font-size:16px}
+.box .box-icon{position:absolute;left:16px;top:15px;width:22px;height:22px}
+.box p:last-child{margin-bottom:0}
+.box-title{font-weight:600;color:var(--ink);display:block;margin-bottom:4px}
+.box.tip{background:var(--cream);border:1px solid var(--beige-deep)}
+.box.tip .box-icon{color:var(--primary)}
+.box.note{background:var(--canvas);border:1px solid var(--hairline-strong)}
+.box.note .box-icon{color:var(--steel)}
+.box.warn{background:#fff4ed;border:1px solid var(--primary)}
+.box.warn .box-icon{color:var(--primary-deep)}
+.box.warn .box-title{color:var(--primary-deep)}
+
+/* ---------- Resource card ---------- */
+.resource{background:var(--canvas);border:1px solid var(--hairline-soft);border-radius:var(--r-lg);padding:var(--s-xl);margin:var(--s-lg) 0;box-shadow:rgba(0,0,0,0.04) 0px 4px 12px}
+.resource-title{font-size:18px;font-weight:600;color:var(--ink);margin:0 0 8px;display:flex;align-items:center;gap:8px}
+.resource-title svg{width:20px;height:20px;color:var(--primary);flex:none}
+.resource-meta{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:var(--s-sm)}
+.resource>p{margin-bottom:var(--s-md);font-size:16px}
+.resource-actions{display:flex;flex-wrap:wrap;gap:8px}
+.rbtn{display:inline-flex;align-items:center;gap:7px;font-family:var(--font-ui);font-size:14px;font-weight:500;padding:9px 16px;border-radius:var(--r-md);cursor:pointer;text-decoration:none;border:1px solid transparent;line-height:1;white-space:nowrap}
+.rbtn svg{width:16px;height:16px;flex:none}
+.rbtn-primary{background:var(--primary);color:var(--on-primary)}
+.rbtn-primary:hover{background:var(--primary-deep);text-decoration:none}
+.rbtn-ghost{background:var(--canvas);color:var(--ink);border:1px solid var(--hairline-strong)}
+.rbtn-ghost:hover{border-color:var(--ink);text-decoration:none}
+.rbtn svg.chev{transition:transform .2s ease}
+.rbtn.open svg.chev{transform:rotate(180deg)}
+.resource-detail{margin-top:var(--s-md);border:1px solid var(--hairline-soft);border-radius:var(--r-md);overflow:hidden}
+.resource-detail[hidden]{display:none}
+.detail-head{display:flex;justify-content:space-between;align-items:center;gap:var(--s-sm);padding:8px 14px;background:var(--cream-light);border-bottom:1px solid var(--beige-deep);font-size:12px;font-weight:600;letter-spacing:.5px;text-transform:uppercase;color:var(--steel)}
+.dbtn{display:inline-flex;align-items:center;gap:6px;font-family:var(--font-ui);font-size:13px;font-weight:500;padding:5px 12px;border-radius:var(--r-sm);cursor:pointer;background:var(--canvas);border:1px solid var(--hairline-strong);color:var(--ink);text-transform:none;letter-spacing:0}
+.dbtn:hover{border-color:var(--ink)}
+.dbtn svg{width:14px;height:14px}
+.detail-body{margin:0;padding:16px;background:var(--cream-light);max-height:380px;overflow:auto}
+.detail-body code{font-family:var(--font-mono);font-size:13px;line-height:1.6;color:var(--ink-tint);white-space:pre-wrap;display:block}
+
+/* ---------- Code & prompt ---------- */
+.code{background:var(--surface-code);border-radius:var(--r-md);overflow:hidden;margin:var(--s-lg) 0;box-shadow:rgba(0,0,0,0.08) 0px 12px 24px -4px}
+.code .code-head{padding:8px 16px;font-size:13px;color:var(--on-dark-muted);border-bottom:1px solid rgba(255,255,255,0.08);display:flex;justify-content:space-between;align-items:center}
+.code .copy{cursor:pointer;background:none;border:1px solid rgba(255,255,255,0.18);color:var(--on-dark-muted);font-size:12px;padding:3px 10px;border-radius:var(--r-sm);font-family:var(--font-ui);display:inline-flex;align-items:center;gap:5px}
+.code .copy svg{width:13px;height:13px}
+.code pre{padding:16px;overflow-x:auto;margin:0}
+.code code{font-family:var(--font-mono);font-size:14px;line-height:1.5;color:var(--on-dark);white-space:pre}
+.prompt{background:var(--cream-light);border:1px dashed var(--beige-deep);border-radius:var(--r-md);padding:var(--s-md);margin:var(--s-lg) 0;font-family:var(--font-mono);font-size:14px;line-height:1.55;color:var(--ink);white-space:pre-wrap}
+
+/* ---------- Source & Sources ---------- */
+.src-link{font-size:12px;font-weight:600;color:var(--primary);vertical-align:super;text-decoration:none;margin-left:2px}
+.sources{background:var(--surface);border:1px solid var(--hairline-soft);border-radius:var(--r-lg);padding:var(--s-xl);margin-top:var(--s-section)}
+.sources .label{font-size:11px;font-weight:600;letter-spacing:1px;text-transform:uppercase;color:var(--primary);margin-bottom:var(--s-sm);display:flex;align-items:center;gap:6px}
+.sources .label svg{width:14px;height:14px}
+.sources ol{margin:0;padding-left:22px;color:var(--steel)}
+.sources li{margin-bottom:8px;font-size:14px;word-break:break-word}
+.sources a{color:var(--primary)}
+
+/* ---------- CTA ---------- */
+.cta{background:var(--cream);border:1px solid var(--beige-deep);border-radius:var(--r-lg);padding:var(--s-section);text-align:center;margin:var(--s-section) 0 0}
+.cta h2{font-family:var(--font-display);font-weight:400;font-size:clamp(28px,4vw,40px);letter-spacing:-.5px;margin:0 0 var(--s-sm)}
+.cta p{font-size:18px;max-width:50ch;margin:0 auto var(--s-lg)}
+.btn{display:inline-flex;align-items:center;gap:8px;font-family:var(--font-ui);font-size:15px;font-weight:500;padding:12px 24px;border-radius:var(--r-md);text-decoration:none;margin:6px}
+.btn svg{width:17px;height:17px}
+.btn-primary{background:var(--primary);color:var(--on-primary)}
+.btn-primary:hover{background:var(--primary-deep);text-decoration:none}
+.btn-dark{background:var(--ink);color:var(--on-dark)}
+.btn-dark:hover{text-decoration:none;opacity:.92}
+
+/* ---------- Command cards ---------- */
+.cmd-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:var(--s-md);margin:var(--s-lg) 0}
+.cmd-card{background:var(--canvas);border:1px solid var(--hairline-soft);border-radius:var(--r-lg);padding:var(--s-lg);display:flex;flex-direction:column;gap:10px;box-shadow:rgba(0,0,0,0.03) 0 2px 8px}
+.cmd-top{display:flex;align-items:flex-start;justify-content:space-between;gap:8px;flex-wrap:wrap}
+.cmd-code{font-family:var(--font-mono);font-size:15px;font-weight:600;color:#d8b4fe;background:var(--surface-code);padding:5px 12px;border-radius:var(--r-sm);display:inline-block;letter-spacing:.3px;line-height:1.4}
+.cmd-code.caps{letter-spacing:2px;font-size:13px;color:#86efac}
+.cmd-stat{font-size:11px;font-weight:700;padding:3px 9px;border-radius:var(--r-full);white-space:nowrap;align-self:flex-start}
+.cmd-stat.red{background:#fee2e2;color:#dc2626}
+.cmd-stat.green{background:#dcfce7;color:#15803d}
+.cmd-stat.orange{background:#ffedd5;color:var(--primary-deep)}
+.cmd-desc{font-size:14px;color:var(--ink-tint);margin:0;line-height:1.5}
+.cmd-use{font-size:13px;color:var(--stone);margin:0;font-family:var(--font-mono);background:var(--surface);border-radius:var(--r-sm);padding:6px 10px;line-height:1.4}
+.cmd-actions{margin-top:auto;padding-top:4px}
+.cbtn{display:inline-flex;align-items:center;gap:6px;font-family:var(--font-ui);font-size:13px;font-weight:500;padding:6px 12px;border-radius:var(--r-sm);cursor:pointer;background:var(--surface);border:1px solid var(--hairline-strong);color:var(--ink)}
+.cbtn:hover{border-color:var(--ink)}
+.cbtn svg{width:13px;height:13px}
+
+/* Before/After panels */
+.ba-grid{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin:var(--s-lg) 0}
+.ba-side{border-radius:var(--r-md);padding:12px 14px;font-size:13px;line-height:1.5}
+.ba-before{background:#fff0f0;border:1px solid #fecaca}
+.ba-after{background:#f0fdf4;border:1px solid #bbf7d0}
+.ba-tag{font-size:10px;font-weight:700;letter-spacing:.8px;text-transform:uppercase;display:block;margin-bottom:6px;font-family:var(--font-mono)}
+.ba-before .ba-tag{color:#dc2626}
+.ba-after .ba-tag{color:#15803d}
+.ba-text{color:var(--ink-tint);font-family:var(--font-mono);font-size:12.5px;line-height:1.55}
+
+/* Category label */
+.cat-label{display:flex;align-items:center;gap:10px;margin:var(--s-xxl) 0 var(--s-sm)}
+.cat-label h2{margin:0}
+.cat-count{font-family:var(--font-mono);font-size:13px;color:var(--stone);font-weight:500}
+
+/* Artifact demo */
+.artifact-demo{background:var(--surface-code);border-radius:var(--r-md);padding:var(--s-md);margin:var(--s-sm) 0;font-family:var(--font-mono);font-size:13px;color:var(--on-dark-muted);line-height:1.5}
+.artifact-demo .cmd{color:#86efac;font-weight:600}
+.artifact-demo .result{color:var(--on-dark);margin-top:8px}
+
+/* Locked preview strip */
+.locked-strip{background:linear-gradient(135deg,var(--surface-code) 0%,#1a1a2e 100%);border-radius:var(--r-lg);padding:var(--s-lg) var(--s-xl);margin:var(--s-lg) 0;border:1px solid rgba(255,255,255,0.08)}
+.locked-title{color:var(--on-dark);font-weight:600;font-size:15px;margin-bottom:var(--s-sm);display:flex;align-items:center;gap:8px}
+.locked-grid{display:flex;flex-wrap:wrap;gap:8px}
+.locked-code{font-family:var(--font-mono);font-size:12px;color:#94a3b8;background:rgba(255,255,255,0.07);padding:4px 10px;border-radius:var(--r-sm);border:1px solid rgba(255,255,255,0.1)}
+.locked-note{font-size:13px;color:#64748b;margin:var(--s-sm) 0 0}
+
+/* ---------- Type comparison cards ---------- */
+.type-grid{display:grid;grid-template-columns:1fr 1fr;gap:var(--s-md);margin:var(--s-lg) 0}
+.type-card{border-radius:var(--r-lg);padding:var(--s-lg)}
+.type-card.type-a{background:var(--cream-light);border:1px solid var(--beige-deep)}
+.type-card.type-b{background:var(--surface-code);border:1px solid rgba(255,255,255,0.08)}
+.type-tag{font-family:var(--font-mono);font-size:11px;font-weight:700;letter-spacing:.5px;padding:3px 9px;border-radius:var(--r-full);display:inline-block;margin-bottom:10px}
+.type-a .type-tag{background:var(--primary);color:var(--on-primary)}
+.type-b .type-tag{background:#86efac;color:#14532d}
+.type-title{font-weight:600;font-size:16px;margin-bottom:6px}
+.type-card.type-a .type-title{color:var(--ink)}
+.type-card.type-b .type-title{color:var(--on-dark)}
+.type-body{font-size:13px;line-height:1.55;margin:0}
+.type-card.type-a .type-body{color:var(--ink-tint)}
+.type-card.type-b .type-body{color:var(--on-dark-muted)}
+.type-count{display:block;font-family:var(--font-mono);font-size:22px;font-weight:600;margin-top:10px}
+.type-card.type-a .type-count{color:var(--primary)}
+.type-card.type-b .type-count{color:#86efac}
+/* Part headings */
+.part-head{display:flex;align-items:center;gap:12px;padding:12px 18px;border-radius:var(--r-md);margin:var(--s-xxl) 0 var(--s-lg)}
+.part-head .part-num{font-family:var(--font-mono);font-size:11px;font-weight:700;letter-spacing:.5px}
+.part-head .part-title{font-weight:600;font-size:16px}
+.part-head .part-sub{font-size:13px;margin-left:auto}
+.part-head.light{background:var(--cream-deeper)}
+.part-head.light .part-num{color:var(--primary)}
+.part-head.light .part-title{color:var(--ink)}
+.part-head.light .part-sub{color:var(--stone)}
+.part-head.dark{background:var(--surface-code)}
+.part-head.dark .part-num{color:#86efac}
+.part-head.dark .part-title{color:var(--on-dark)}
+.part-head.dark .part-sub{color:#64748b}
+
+/* ---------- Slash Commands ---------- */
+.slash-group{margin:var(--s-xxl) 0 var(--s-lg)}
+.slash-group .sh-head{display:flex;align-items:baseline;gap:8px;margin-bottom:var(--s-sm)}
+.slash-group .sh-head h3{margin:0}
+.slash-list{display:grid;grid-template-columns:repeat(2,1fr);gap:8px;margin-top:var(--s-sm)}
+.slash-item{background:var(--canvas);border:1px solid var(--hairline-soft);border-radius:var(--r-md);padding:10px 14px;display:flex;gap:10px;align-items:flex-start}
+.slash-cmd{font-family:var(--font-mono);font-size:13px;font-weight:600;color:var(--primary);white-space:nowrap;min-width:94px;margin-top:1px;flex:none}
+.slash-desc{font-size:13px;color:var(--ink-tint);line-height:1.4;margin:0}
+.slash-param{font-family:var(--font-mono);font-size:11px;color:var(--stone);display:block;margin-top:2px}
+
+@media (max-width:640px){
+  :root{--s-section:48px;--s-section-lg:64px}
+  body{font-size:16px}
+  .wrap{padding-left:var(--s-md);padding-right:var(--s-md)}
+  h2{font-size:24px}
+  .step,.toc,.cta,.resource,.sources{padding:var(--s-md)}
+  .cta{padding:var(--s-xxl) var(--s-md)}
+  .cmd-grid{grid-template-columns:1fr}
+  .ba-grid{grid-template-columns:1fr}
+  .slash-list{grid-template-columns:1fr}
+  .type-grid{grid-template-columns:1fr}
+  .part-head .part-sub{display:none}
+}
+</style>
+</head>
+<body>
+
+<!-- ============ HERO ============ -->
+<header class="hero">
+  <div class="wrap">
+    <div class="eyebrow">TÀI LIỆU THAM KHẢO · CLAUDE.AI & CLAUDE CODE</div>
+    <h1>List Mã Claude</h1>
+    <p class="lead">Hai loại lệnh tắt để kiểm soát Claude sâu hơn: <strong>Prompt Codes</strong> paste vào tin nhắn trên Claude.ai, và <strong>Slash Commands</strong> gõ trong Claude Code CLI. Tổng hợp đầy đủ, có dữ liệu before/after thực chiến.</p>
+    <div class="meta">
+      <span class="badge orange">135+ lệnh tổng cộng</span>
+      <span class="badge">35 Prompt Codes</span>
+      <span class="badge">100+ Slash Commands</span>
+      <span>· Cập nhật tháng 6/2026</span>
+    </div>
+  </div>
+</header>
+
+<!-- ============ CONTENT ============ -->
+<main class="wrap">
+
+  <!-- MỞ ĐẦU -->
+  <section id="gioi-thieu">
+    <p>Có hai cách dùng "lệnh tắt" để kiểm soát Claude sâu hơn — và chúng hoạt động ở hai môi trường khác nhau. Tài liệu này gom cả hai lại thành một chỗ để bạn tra cứu và tải về.</p>
+
+    <div class="type-grid">
+      <div class="type-card type-a">
+        <span class="type-tag">Claude.ai · web &amp; app</span>
+        <div class="type-title">Prompt Codes</div>
+        <p class="type-body">Paste vào đầu tin nhắn. Không cần cài gì thêm. Thay đổi cách Claude viết, rút ngắn văn bản, hoặc tạo ra sản phẩm tương tác.</p>
+        <span class="type-count">35 mã</span>
+      </div>
+      <div class="type-card type-b">
+        <span class="type-tag">Claude Code · CLI / terminal</span>
+        <div class="type-title">Slash Commands</div>
+        <p class="type-body">Gõ trực tiếp trong Claude Code CLI. Kiểm soát phiên làm việc, review code, tự động hoá và cấu hình agent. <strong style="color:#86efac">Không chạy trên Claude.ai.</strong></p>
+        <span class="type-count">100+ lệnh</span>
+      </div>
+    </div>
+
+    <div class="box tip">
+      <svg class="box-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M9 18h6M10 21h4"/><path d="M12 3a6 6 0 0 0-4 10.5c.7.7 1 1.4 1 2.5h6c0-1.1.3-1.8 1-2.5A6 6 0 0 0 12 3Z"/></svg>
+      <span class="box-title">Tôi nên dùng cái nào?</span>
+      <p>Nếu bạn dùng <strong>Claude.ai</strong> hàng ngày để viết, làm content, tạo app nhỏ → dùng <strong>Prompt Codes</strong> (15 mã bên dưới). Nếu bạn là lập trình viên cài <strong>Claude Code</strong> trong terminal → dùng <strong>Slash Commands</strong>. Hai loại này hoạt động ở hai môi trường khác nhau — không thể hoán đổi.</p>
+    </div>
+  </section>
+
+  <!-- MỤC LỤC -->
+  <nav class="toc" aria-label="Mục lục">
+    <div class="label">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M8 6h13M8 12h13M8 18h13M3.5 6h.01M3.5 12h.01M3.5 18h.01"/></svg>
+      Trong tài liệu này
+    </div>
+    <ol>
+      <li><a href="#nhom-writing">Prompt Codes — 35 mã (Claude.ai)</a></li>
+      <li><a href="#cach-dung">Cách dùng Prompt Codes đúng cách</a></li>
+      <li><a href="#tai-danh-sach">Tải danh sách Prompt Codes</a></li>
+      <li><a href="#slash-commands">Slash Commands — 100+ lệnh (Claude Code CLI)</a></li>
+    </ol>
+  </nav>
+
+  <section id="nhom-writing">
+    <div class="cat-label">
+      <h2>Nhóm Writing</h2>
+      <span class="cat-count">10 mã · cho văn bản</span>
+    </div>
+
+    <p>Mười mã lệnh này tập trung vào <strong>chất lượng văn bản</strong>: làm cho nội dung bạn có trở nên tự nhiên hơn, mạnh mẽ hơn, ngắn gọn hơn, hoặc chuyên nghiệp hơn. Paste vào <strong>đầu tin nhắn</strong>, rồi viết yêu cầu như bình thường.</p>
+
+    <div class="cmd-grid">
+
+      <!-- /ghost -->
+      <div class="cmd-card">
+        <div class="cmd-top">
+          <code class="cmd-code">/ghost</code>
+        </div>
+        <p class="cmd-desc"><strong>Xoá dấu vết AI</strong> — Viết lại đoạn văn để không ai nhận ra AI tạo ra. Claude bỏ những cụm từ "AI điển hình" và viết theo giọng người thật.</p>
+        <code class="cmd-use">Ví dụ: /ghost + "viết bài giới thiệu sản phẩm này"</code>
+        <div class="cmd-actions">
+          <span id="code-ghost" style="display:none">/ghost</span>
+          <button class="cbtn" onclick="cmaCopy('code-ghost',this)">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><rect x="8" y="8" width="12" height="12" rx="2"/><path d="M16 8V6a2 2 0 0 0-2-2H6a2 2 0 0 0-2 2v8a2 2 0 0 0 2 2h2"/></svg>
+            <span class="lbl">Copy mã</span>
+          </button>
+        </div>
+      </div>
+
+      <!-- /mirror -->
+      <div class="cmd-card">
+        <div class="cmd-top">
+          <code class="cmd-code">/mirror</code>
+        </div>
+        <p class="cmd-desc"><strong>Học giọng văn của bạn</strong> — Paste mẫu văn bản của bạn, Claude phân tích phong cách rồi viết y chang cách bạn viết. Dùng để tạo content "đúng tone" mà không cần chỉnh sửa nhiều.</p>
+        <code class="cmd-use">Ví dụ: /mirror [dán đoạn văn mẫu của bạn]</code>
+        <div class="cmd-actions">
+          <span id="code-mirror" style="display:none">/mirror</span>
+          <button class="cbtn" onclick="cmaCopy('code-mirror',this)">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><rect x="8" y="8" width="12" height="12" rx="2"/><path d="M16 8V6a2 2 0 0 0-2-2H6a2 2 0 0 0-2 2v8a2 2 0 0 0 2 2h2"/></svg>
+            <span class="lbl">Copy mã</span>
+          </button>
+        </div>
+      </div>
+
+      <!-- /raw -->
+      <div class="cmd-card">
+        <div class="cmd-top">
+          <code class="cmd-code">/raw</code>
+          <span class="cmd-stat red">−30% phức tạp</span>
+        </div>
+        <p class="cmd-desc"><strong>Tắt định dạng markdown</strong> — Trả về văn bản thuần, không heading, không bullet point, không bold. Dùng khi bạn cần copy nội dung vào một hệ thống khác mà không muốn dính ký tự markdown.</p>
+        <code class="cmd-use">Ví dụ: /raw + yêu cầu bình thường của bạn</code>
+        <div class="cmd-actions">
+          <span id="code-raw" style="display:none">/raw</span>
+          <button class="cbtn" onclick="cmaCopy('code-raw',this)">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><rect x="8" y="8" width="12" height="12" rx="2"/><path d="M16 8V6a2 2 0 0 0-2-2H6a2 2 0 0 0-2 2v8a2 2 0 0 0 2 2h2"/></svg>
+            <span class="lbl">Copy mã</span>
+          </button>
+        </div>
+      </div>
+
+      <!-- /voice -->
+      <div class="cmd-card">
+        <div class="cmd-top">
+          <code class="cmd-code">/voice</code>
+        </div>
+        <p class="cmd-desc"><strong>Khoá tông giọng</strong> — Mô tả phong cách bạn muốn (trang nghiêm, thân thiện, hài hước, trực tiếp...) và Claude giữ đúng tông đó xuyên suốt cả cuộc trò chuyện.</p>
+        <code class="cmd-use">Ví dụ: /voice [ngắn gọn, chuyên nghiệp, không hoa mỹ]</code>
+        <div class="cmd-actions">
+          <span id="code-voice" style="display:none">/voice</span>
+          <button class="cbtn" onclick="cmaCopy('code-voice',this)">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><rect x="8" y="8" width="12" height="12" rx="2"/><path d="M16 8V6a2 2 0 0 0-2-2H6a2 2 0 0 0-2 2v8a2 2 0 0 0 2 2h2"/></svg>
+            <span class="lbl">Copy mã</span>
+          </button>
+        </div>
+      </div>
+
+      <!-- /punch -->
+      <div class="cmd-card">
+        <div class="cmd-top">
+          <code class="cmd-code">/punch</code>
+          <span class="cmd-stat red">−40% từ</span>
+        </div>
+        <p class="cmd-desc"><strong>Đấm mạnh hơn</strong> — Cắt bỏ từ thừa, mỗi câu phải có trọng lượng. Dùng cho copy quảng cáo, headline, email cold outreach, caption mạng xã hội — bất cứ thứ gì cần "cú đấm".</p>
+        <code class="cmd-use">Ví dụ: /punch + [đoạn văn cần cải thiện]</code>
+        <div class="cmd-actions">
+          <span id="code-punch" style="display:none">/punch</span>
+          <button class="cbtn" onclick="cmaCopy('code-punch',this)">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><rect x="8" y="8" width="12" height="12" rx="2"/><path d="M16 8V6a2 2 0 0 0-2-2H6a2 2 0 0 0-2 2h2"/></svg>
+            <span class="lbl">Copy mã</span>
+          </button>
+        </div>
+      </div>
+
+      <!-- /flow -->
+      <div class="cmd-card">
+        <div class="cmd-top">
+          <code class="cmd-code">/flow</code>
+        </div>
+        <p class="cmd-desc"><strong>Tăng tính trôi chảy</strong> — Sắp xếp lại cấu trúc câu và đoạn văn để đọc liền mạch từ đầu đến cuối. Không thay đổi nội dung, chỉ cải thiện cách dẫn dắt.</p>
+        <code class="cmd-use">Ví dụ: /flow + [bài viết cần cải thiện flow]</code>
+        <div class="cmd-actions">
+          <span id="code-flow" style="display:none">/flow</span>
+          <button class="cbtn" onclick="cmaCopy('code-flow',this)">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><rect x="8" y="8" width="12" height="12" rx="2"/><path d="M16 8V6a2 2 0 0 0-2-2H6a2 2 0 0 0-2 2v8a2 2 0 0 0 2 2h2"/></svg>
+            <span class="lbl">Copy mã</span>
+          </button>
+        </div>
+      </div>
+
+      <!-- /trim -->
+      <div class="cmd-card">
+        <div class="cmd-top">
+          <code class="cmd-code">/trim</code>
+          <span class="cmd-stat red">−50% độ dài</span>
+        </div>
+        <p class="cmd-desc"><strong>Cắt ngắn mạnh nhất</strong> — Giảm một nửa số từ mà vẫn giữ nguyên 100% ý nghĩa. Dùng khi có bài viết dài dòng, muốn rút gọn xuống version ngắn để đăng nhiều nơi.</p>
+        <code class="cmd-use">Ví dụ: /trim + [đoạn văn dài cần rút gọn]</code>
+        <div class="cmd-actions">
+          <span id="code-trim" style="display:none">/trim</span>
+          <button class="cbtn" onclick="cmaCopy('code-trim',this)">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><rect x="8" y="8" width="12" height="12" rx="2"/><path d="M16 8V6a2 2 0 0 0-2-2H6a2 2 0 0 0-2 2v8a2 2 0 0 0 2 2h2"/></svg>
+            <span class="lbl">Copy mã</span>
+          </button>
+        </div>
+      </div>
+
+      <!-- /hook -->
+      <div class="cmd-card">
+        <div class="cmd-top">
+          <code class="cmd-code">/hook</code>
+        </div>
+        <p class="cmd-desc"><strong>Viết lại câu mở đầu</strong> — Biến câu mở nhạt thành câu khiến người đọc muốn đọc tiếp ngay từ giây đầu tiên. Quan trọng nhất cho bài blog, email, caption mạng xã hội.</p>
+        <code class="cmd-use">Ví dụ: /hook + [câu mở đầu hiện tại của bạn]</code>
+        <div class="cmd-actions">
+          <span id="code-hook" style="display:none">/hook</span>
+          <button class="cbtn" onclick="cmaCopy('code-hook',this)">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><rect x="8" y="8" width="12" height="12" rx="2"/><path d="M16 8V6a2 2 0 0 0-2-2H6a2 2 0 0 0-2 2v8a2 2 0 0 0 2 2h2"/></svg>
+            <span class="lbl">Copy mã</span>
+          </button>
+        </div>
+      </div>
+
+      <!-- /rephrase -->
+      <div class="cmd-card">
+        <div class="cmd-top">
+          <code class="cmd-code">/rephrase</code>
+        </div>
+        <p class="cmd-desc"><strong>Diễn đạt khác đi</strong> — Cùng ý đó nhưng hoàn toàn khác cách nói. Hữu ích khi muốn tạo nhiều phiên bản A/B, hoặc khi đoạn văn cũ cảm thấy "đọc không vào".</p>
+        <code class="cmd-use">Ví dụ: /rephrase + [đoạn cần diễn đạt lại]</code>
+        <div class="cmd-actions">
+          <span id="code-rephrase" style="display:none">/rephrase</span>
+          <button class="cbtn" onclick="cmaCopy('code-rephrase',this)">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><rect x="8" y="8" width="12" height="12" rx="2"/><path d="M16 8V6a2 2 0 0 0-2-2H6a2 2 0 0 0-2 2v8a2 2 0 0 0 2 2h2"/></svg>
+            <span class="lbl">Copy mã</span>
+          </button>
+        </div>
+      </div>
+
+      <!-- /polish -->
+      <div class="cmd-card">
+        <div class="cmd-top">
+          <code class="cmd-code">/polish</code>
+        </div>
+        <p class="cmd-desc"><strong>Chỉnh thành chuyên nghiệp</strong> — Nâng cấp văn bản thô (ghi nháp, note nhanh, draft ban đầu) lên phiên bản chuyên nghiệp mà vẫn giữ nguyên ý và giọng văn của bạn.</p>
+        <code class="cmd-use">Ví dụ: /polish + [bản draft thô của bạn]</code>
+        <div class="cmd-actions">
+          <span id="code-polish" style="display:none">/polish</span>
+          <button class="cbtn" onclick="cmaCopy('code-polish',this)">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><rect x="8" y="8" width="12" height="12" rx="2"/><path d="M16 8V6a2 2 0 0 0-2-2H6a2 2 0 0 0-2 2v8a2 2 0 0 0 2 2h2"/></svg>
+            <span class="lbl">Copy mã</span>
+          </button>
+        </div>
+      </div>
+
+    </div><!-- /cmd-grid -->
+
+    <!-- Before/After examples -->
+    <h3>Kết quả thực tế — Before vs After</h3>
+    <p>Hai mã được test với dữ liệu thực tế nhất:</p>
+
+    <p style="font-weight:600;color:var(--ink);margin-bottom:6px">
+      <code style="font-family:var(--font-mono);background:var(--surface-code);color:#d8b4fe;padding:3px 8px;border-radius:var(--r-sm)">/ghost</code>
+      — Xoá dấu vết AI:
+    </p>
+    <div class="ba-grid">
+      <div class="ba-side ba-before">
+        <span class="ba-tag">Trước /ghost</span>
+        <span class="ba-text">"In today's competitive landscape, leveraging AI tools can significantly enhance your productivity and streamline complex workflows..."</span>
+      </div>
+      <div class="ba-side ba-after">
+        <span class="ba-tag">Sau /ghost</span>
+        <span class="ba-text">"AI tools save solo founders time, but only if you actually prompt them well. Most people use 10% of what they can do."</span>
+      </div>
+    </div>
+
+    <p style="font-weight:600;color:var(--ink);margin-bottom:6px;margin-top:var(--s-lg)">
+      <code style="font-family:var(--font-mono);background:var(--surface-code);color:#d8b4fe;padding:3px 8px;border-radius:var(--r-sm)">/punch</code>
+      — Đấm mạnh hơn:
+    </p>
+    <div class="ba-grid">
+      <div class="ba-side ba-before">
+        <span class="ba-tag">Trước /punch</span>
+        <span class="ba-text">"Our product helps teams collaborate more effectively by providing a centralized platform for communication and project management..."</span>
+      </div>
+      <div class="ba-side ba-after">
+        <span class="ba-tag">Sau /punch</span>
+        <span class="ba-text">"Your team wastes 4 hours a week in Slack. We kill that. One platform, all projects, zero chaos."</span>
+      </div>
+    </div>
+
+    <div class="box tip">
+      <svg class="box-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M9 18h6M10 21h4"/><path d="M12 3a6 6 0 0 0-4 10.5c.7.7 1 1.4 1 2.5h6c0-1.1.3-1.8 1-2.5A6 6 0 0 0 12 3Z"/></svg>
+      <span class="box-title">Mẹo kết hợp Writing codes</span>
+      <p>Thứ tự hiệu quả nhất: dùng <code style="font-family:var(--font-mono);font-size:13px">/ghost</code> để viết lần đầu → <code style="font-family:var(--font-mono);font-size:13px">/punch</code> để cắt ngắn → <code style="font-family:var(--font-mono);font-size:13px">/hook</code> để cải thiện câu mở. Mỗi mã một tin nhắn riêng — đừng stack cả ba vào một lúc.</p>
+    </div>
+  </section>
+
+  <!-- PHẦN 2: ARTIFACTS -->
+  <section id="nhom-artifacts">
+    <div class="cat-label">
+      <h2>Nhóm Artifacts</h2>
+      <span class="cat-count">5 mã · tạo sản phẩm</span>
+    </div>
+
+    <p>Nhóm này hoạt động khác hẳn: thay vì dùng với văn bản có sẵn, bạn dùng chúng <strong>thay cho "viết cho tôi..."</strong> để Claude tạo ra sản phẩm tương tác được — app, dashboard, prototype — ngay trong giao diện Claude.</p>
+
+    <div class="box note">
+      <svg class="box-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M12 11v5M12 7.5h.01"/></svg>
+      <span class="box-title">Artifacts là gì?</span>
+      <p>Artifacts là tính năng của Claude cho phép tạo ra các sản phẩm HTML/JavaScript chạy được ngay trong cửa sổ chat — không cần mở editor, không cần deploy. Bạn mô tả cần gì, Claude xây xong cho xem liền. Có thể dùng với Claude.ai miễn phí.</p>
+    </div>
+
+    <div class="cmd-grid">
+
+      <!-- ARTIFACTS -->
+      <div class="cmd-card">
+        <div class="cmd-top">
+          <code class="cmd-code caps">ARTIFACTS</code>
+          <span class="cmd-stat orange">+3k tokens</span>
+        </div>
+        <p class="cmd-desc"><strong>Tạo sản phẩm hoàn chỉnh</strong> — Claude không chỉ viết code — nó tạo ra tool/app chạy được ngay, hiển thị trong cửa sổ bên cạnh. Phù hợp cho mọi loại sản phẩm tương tác.</p>
+        <code class="cmd-use">Ví dụ: ARTIFACTS tạo quiz kiểm tra tiếng Anh 10 câu</code>
+        <div class="cmd-actions">
+          <span id="code-artifacts" style="display:none">ARTIFACTS</span>
+          <button class="cbtn" onclick="cmaCopy('code-artifacts',this)">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><rect x="8" y="8" width="12" height="12" rx="2"/><path d="M16 8V6a2 2 0 0 0-2-2H6a2 2 0 0 0-2 2v8a2 2 0 0 0 2 2h2"/></svg>
+            <span class="lbl">Copy mã</span>
+          </button>
+        </div>
+      </div>
+
+      <!-- /buildme -->
+      <div class="cmd-card">
+        <div class="cmd-top">
+          <code class="cmd-code">/buildme</code>
+          <span class="cmd-stat orange">+5k tokens</span>
+        </div>
+        <p class="cmd-desc"><strong>Xây app từ đầu</strong> — Mô tả ý tưởng bằng 1–2 câu, Claude xây app/tool đầy đủ với code sạch, UI hoạt động được. Đây là mã có output lớn nhất trong bộ 15 mã.</p>
+        <code class="cmd-use">Ví dụ: /buildme app đếm ngược pomodoro 25 phút</code>
+        <div class="cmd-actions">
+          <span id="code-buildme" style="display:none">/buildme</span>
+          <button class="cbtn" onclick="cmaCopy('code-buildme',this)">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><rect x="8" y="8" width="12" height="12" rx="2"/><path d="M16 8V6a2 2 0 0 0-2-2H6a2 2 0 0 0-2 2v8a2 2 0 0 0 2 2h2"/></svg>
+            <span class="lbl">Copy mã</span>
+          </button>
+        </div>
+      </div>
+
+      <!-- DASHBOARD -->
+      <div class="cmd-card">
+        <div class="cmd-top">
+          <code class="cmd-code caps">DASHBOARD</code>
+        </div>
+        <p class="cmd-desc"><strong>Tạo dashboard dữ liệu</strong> — Paste dữ liệu thô (bảng số, danh sách, CSV...) và Claude xây ngay một dashboard trực quan với biểu đồ, bộ lọc, có thể tương tác được.</p>
+        <code class="cmd-use">Ví dụ: DASHBOARD [paste dữ liệu doanh số của bạn]</code>
+        <div class="cmd-actions">
+          <span id="code-dashboard" style="display:none">DASHBOARD</span>
+          <button class="cbtn" onclick="cmaCopy('code-dashboard',this)">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><rect x="8" y="8" width="12" height="12" rx="2"/><path d="M16 8V6a2 2 0 0 0-2-2H6a2 2 0 0 0-2 2v8a2 2 0 0 0 2 2h2"/></svg>
+            <span class="lbl">Copy mã</span>
+          </button>
+        </div>
+      </div>
+
+      <!-- PROTOTYPE -->
+      <div class="cmd-card">
+        <div class="cmd-top">
+          <code class="cmd-code caps">PROTOTYPE</code>
+        </div>
+        <p class="cmd-desc"><strong>Dựng prototype từ ý tưởng</strong> — Mô tả ý tưởng sản phẩm, Claude tạo prototype hoạt động được trong vài giây. Dùng để trình bày cho khách hàng, team, hoặc kiểm tra ý tưởng trước khi đầu tư.</p>
+        <code class="cmd-use">Ví dụ: PROTOTYPE app đặt lịch cắt tóc online</code>
+        <div class="cmd-actions">
+          <span id="code-prototype" style="display:none">PROTOTYPE</span>
+          <button class="cbtn" onclick="cmaCopy('code-prototype',this)">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><rect x="8" y="8" width="12" height="12" rx="2"/><path d="M16 8V6a2 2 0 0 0-2-2H6a2 2 0 0 0-2 2v8a2 2 0 0 0 2 2h2"/></svg>
+            <span class="lbl">Copy mã</span>
+          </button>
+        </div>
+      </div>
+
+      <!-- CANVAS -->
+      <div class="cmd-card">
+        <div class="cmd-top">
+          <code class="cmd-code caps">CANVAS</code>
+        </div>
+        <p class="cmd-desc"><strong>Không gian thiết kế trực quan</strong> — Mở workspace để thiết kế layout, sơ đồ luồng, wireframe giao diện ngay trong Claude. Không cần Figma hay Miro cho những sơ đồ đơn giản.</p>
+        <code class="cmd-use">Ví dụ: CANVAS vẽ sơ đồ luồng đăng ký tài khoản</code>
+        <div class="cmd-actions">
+          <span id="code-canvas" style="display:none">CANVAS</span>
+          <button class="cbtn" onclick="cmaCopy('code-canvas',this)">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><rect x="8" y="8" width="12" height="12" rx="2"/><path d="M16 8V6a2 2 0 0 0-2-2H6a2 2 0 0 0-2 2v8a2 2 0 0 0 2 2h2"/></svg>
+            <span class="lbl">Copy mã</span>
+          </button>
+        </div>
+      </div>
+
+    </div><!-- /cmd-grid artifacts -->
+
+    <div class="artifact-demo">
+      <div class="cmd">DASHBOARD [dán bảng doanh số tháng 1-6]</div>
+      <div class="result">→ Claude tạo ra biểu đồ cột tương tác + bảng tổng hợp + bộ lọc theo tháng, chạy ngay trong cửa sổ bên cạnh. Export được HTML.</div>
+    </div>
+
+  </section>
+
+  <!-- NHÓM THINKING & REASONING -->
+  <section id="nhom-thinking">
+    <div class="cat-label">
+      <h2>Nhóm Thinking &amp; Reasoning</h2>
+      <span class="cat-count">6 mã · tư duy sâu</span>
+    </div>
+    <p>Sáu mã này thay đổi cách Claude <strong>xử lý thông tin</strong> trước khi trả lời — từ cam kết một quan điểm rõ ràng đến phân tích theo framework cụ thể. Đây là nhóm có tác động đo được rõ nhất qua A/B test.</p>
+    <div class="cmd-grid">
+
+      <div class="cmd-card">
+        <div class="cmd-top"><code class="cmd-code">L99</code></div>
+        <p class="cmd-desc"><strong>Cam kết một đáp án dứt khoát</strong> — Bắt Claude ngừng hedging ("tuỳ trường hợp", "có nhiều cách"). Claude đưa ra một khuyến nghị rõ ràng với lý do cụ thể.</p>
+        <div class="ba-grid">
+          <div class="ba-before"><div class="ba-label">Không có L99</div>Có nhiều cách tiếp cận, tuỳ vào nhu cầu của bạn...</div>
+          <div class="ba-after"><div class="ba-label">Có L99</div>Dùng Postgres. MongoDB chỉ phù hợp khi... Trong trường hợp của bạn, lý do cụ thể là...</div>
+        </div>
+      </div>
+
+      <div class="cmd-card">
+        <div class="cmd-top"><code class="cmd-code">ULTRATHINK</code></div>
+        <p class="cmd-desc"><strong>Phân tích tối đa chiều sâu</strong> — Claude dành nhiều ngân sách tư duy hơn, trả về phân tích 800-1200 từ theo nhiều lớp. Dùng cho quyết định quan trọng, không phải câu hỏi thường ngày.</p>
+      </div>
+
+      <div class="cmd-card">
+        <div class="cmd-top"><code class="cmd-code">OODA</code></div>
+        <p class="cmd-desc"><strong>Framework quân sự Observe-Orient-Decide-Act</strong> — Claude phân tích tình huống theo 4 bước: quan sát thực tế → định hướng → quyết định → hành động. Tốt cho khủng hoảng và tình huống cần tốc độ.</p>
+        <div class="ba-grid">
+          <div class="ba-before"><div class="ba-label">Ví dụ</div>OODA production đang down, lỗi 502, deploy cuối 3 tiếng trước</div>
+          <div class="ba-after"><div class="ba-label">→ Claude trả về</div>Observe: 502 = backend lỗi, không phải DNS. Orient: deploy 3h trước là suspect #1. Decide: rollback ngay. Act: lệnh rollback cụ thể cho từng platform...</div>
+        </div>
+      </div>
+
+      <div class="cmd-card">
+        <div class="cmd-top"><code class="cmd-code">/skeptic</code></div>
+        <p class="cmd-desc"><strong>Thách thức câu hỏi trước khi trả lời</strong> — Claude bắt đầu bằng cách kiểm tra xem câu hỏi của bạn có đúng không. Giải quyết vấn đề sai hướng từ gốc rễ. Tỷ lệ phát hiện "câu hỏi sai" đạt 79% trong A/B test.</p>
+      </div>
+
+      <div class="cmd-card">
+        <div class="cmd-top"><code class="cmd-code">/blindspots</code></div>
+        <p class="cmd-desc"><strong>Tìm giả định ẩn</strong> — Claude liệt kê những điều bạn đang giả định mà chưa kiểm chứng, những rủi ro chưa nhìn thấy, và góc nhìn bị bỏ qua trong bức tranh tổng thể.</p>
+      </div>
+
+      <div class="cmd-card">
+        <div class="cmd-top"><code class="cmd-code">/noyap</code></div>
+        <p class="cmd-desc"><strong>Không lan man, vào thẳng vấn đề</strong> — Loại bỏ phần mở đầu dài dòng, tóm tắt "đây là điều mình sẽ làm", và lời kết thúc thừa. Chỉ còn nội dung cốt lõi.</p>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- NHÓM RESEARCH & ANALYSIS -->
+  <section id="nhom-analysis">
+    <div class="cat-label">
+      <h2>Nhóm Research &amp; Analysis</h2>
+      <span class="cat-count">5 mã · phân tích chuyên sâu</span>
+    </div>
+    <p>Năm mã giúp Claude tiếp cận một vấn đề từ nhiều góc độ hơn — phân tích phản biện, tìm điểm yếu, hoặc so sánh có cấu trúc.</p>
+    <div class="cmd-grid">
+
+      <div class="cmd-card">
+        <div class="cmd-top"><code class="cmd-code">DEEPDIVE</code></div>
+        <p class="cmd-desc"><strong>Nghiên cứu toàn diện một chủ đề</strong> — Claude đào sâu hơn mức thông thường: lịch sử, nguyên nhân, dữ liệu, ví dụ thực tế, và kết luận có dẫn chứng.</p>
+      </div>
+
+      <div class="cmd-card">
+        <div class="cmd-top"><code class="cmd-code">COMPARE</code></div>
+        <p class="cmd-desc"><strong>So sánh có cấu trúc</strong> — Thay vì mô tả tuần tự từng lựa chọn, Claude tạo bảng so sánh theo tiêu chí rõ ràng và đưa ra khuyến nghị cuối.</p>
+      </div>
+
+      <div class="cmd-card">
+        <div class="cmd-top"><code class="cmd-code">/steelman</code></div>
+        <p class="cmd-desc"><strong>Phiên bản tốt nhất của luận điểm đối lập</strong> — Claude trình bày lý lẽ mạnh nhất ủng hộ quan điểm bạn không đồng ý, giúp ra quyết định cân nhắc hơn.</p>
+      </div>
+
+      <div class="cmd-card">
+        <div class="cmd-top"><code class="cmd-code">PARETO</code></div>
+        <p class="cmd-desc"><strong>Tập trung vào 20% tạo ra 80% kết quả</strong> — Claude bỏ qua chi tiết thứ yếu và chỉ trả về những hành động hoặc yếu tố có đòn bẩy cao nhất.</p>
+      </div>
+
+      <div class="cmd-card">
+        <div class="cmd-top"><code class="cmd-code">/premortem</code></div>
+        <p class="cmd-desc"><strong>Phân tích thất bại trước khi xảy ra</strong> — Claude giả định kế hoạch đã thất bại và lý giải tại sao, giúp phát hiện rủi ro trước khi bắt đầu.</p>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- NHÓM CODING & TECHNICAL -->
+  <section id="nhom-coding">
+    <div class="cat-label">
+      <h2>Nhóm Coding &amp; Technical</h2>
+      <span class="cat-count">3 mã · lập trình (Claude.ai)</span>
+    </div>
+    <p>Ba mã này hoạt động trên Claude.ai web khi bạn paste code vào chat. Khác với Slash Commands trong Claude Code CLI — đây là prompt codes thông thường, không cần cài gì thêm.</p>
+    <div class="cmd-grid">
+
+      <div class="cmd-card">
+        <div class="cmd-top"><code class="cmd-code">/debug</code></div>
+        <p class="cmd-desc"><strong>Debug theo quy trình có hệ thống</strong> — Thay vì đoán mò, Claude đặt giả thuyết → kiểm tra từng giả thuyết → khoanh vùng nguyên nhân gốc rễ → đưa ra fix kèm giải thích.</p>
+      </div>
+
+      <div class="cmd-card">
+        <div class="cmd-top"><code class="cmd-code">REFACTOR</code></div>
+        <p class="cmd-desc"><strong>Viết lại code sạch hơn, không đổi hành vi</strong> — Claude cải thiện cấu trúc, đặt tên biến, tách hàm, và giải thích từng thay đổi. Không thêm tính năng mới.</p>
+      </div>
+
+      <div class="cmd-card">
+        <div class="cmd-top"><code class="cmd-code">ARCHITECT</code></div>
+        <p class="cmd-desc"><strong>Tư duy như senior system designer</strong> — Claude xem xét scalability, maintainability, trade-off kỹ thuật, và đề xuất kiến trúc có luận điểm rõ ràng thay vì chỉ viết code.</p>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- NHÓM OUTPUT & FORMAT -->
+  <section id="nhom-format">
+    <div class="cat-label">
+      <h2>Nhóm Output &amp; Format</h2>
+      <span class="cat-count">6 mã · định dạng đầu ra</span>
+    </div>
+    <p>Sáu mã kiểm soát <strong>hình thức</strong> thay vì nội dung — ép Claude trả về đúng định dạng bạn cần ngay lần đầu, không phải yêu cầu lại.</p>
+    <div class="cmd-grid">
+
+      <div class="cmd-card">
+        <div class="cmd-top"><code class="cmd-code">PERSONA</code></div>
+        <p class="cmd-desc"><strong>Trả lời từ góc nhìn chuyên gia cụ thể</strong> — Chỉ hiệu quả khi mô tả persona chi tiết (vai trò + kinh nghiệm + lĩnh vực). Persona mơ hồ không tạo khác biệt.<br><code style="font-size:12px;font-family:var(--font-mono)">PERSONA: Senior backend engineer, 10 năm, chuyên về distributed systems. Review kiến trúc này:</code></p>
+      </div>
+
+      <div class="cmd-card">
+        <div class="cmd-top"><code class="cmd-code">/eli5</code></div>
+        <p class="cmd-desc"><strong>Giải thích như với người 5 tuổi</strong> — Claude dùng ví dụ đời thường, bỏ hết thuật ngữ kỹ thuật. Dùng khi cần hiểu nhanh một khái niệm mới hoặc giải thích cho người không chuyên.</p>
+      </div>
+
+      <div class="cmd-card">
+        <div class="cmd-top"><code class="cmd-code">/table</code></div>
+        <p class="cmd-desc"><strong>Bắt buộc output dạng bảng</strong> — Claude tổ chức thông tin thành bảng Markdown thay vì đoạn văn. Tốt cho so sánh, danh sách có nhiều thuộc tính.</p>
+      </div>
+
+      <div class="cmd-card">
+        <div class="cmd-top"><code class="cmd-code">/checklist</code></div>
+        <p class="cmd-desc"><strong>Output dạng checklist hành động</strong> — Mỗi item là một việc cụ thể có thể tick off. Không phải gợi ý mơ hồ — là bước thực hiện được ngay.</p>
+      </div>
+
+      <div class="cmd-card">
+        <div class="cmd-top"><code class="cmd-code">/email</code></div>
+        <p class="cmd-desc"><strong>Format thành email chuyên nghiệp</strong> — Claude tự tạo subject line, mở đầu, thân email, và kết thúc phù hợp ngữ cảnh. Paste nội dung thô, nhận email hoàn chỉnh.</p>
+      </div>
+
+      <div class="cmd-card">
+        <div class="cmd-top"><code class="cmd-code">FINISH</code></div>
+        <p class="cmd-desc"><strong>Hoàn thiện đến cùng, không dừng giữa chừng</strong> — Claude không kết thúc với "bạn muốn tôi tiếp tục không?" hay "đây là một phần...". Viết hết, xong hẳn mới dừng.</p>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- PHẦN 3: CÁCH DÙNG -->
+  <section id="cach-dung">
+    <h2>Cách dùng đúng để có kết quả tốt nhất</h2>
+
+    <div class="step">
+      <span class="step-num">1</span>
+      <h3>Xác định mình muốn thay đổi điều gì</h3>
+      <p>35 mã chia thành 6 nhóm — mỗi nhóm giải quyết một loại vấn đề khác nhau. Trước khi paste, hỏi: <em>"Tôi muốn kết quả thay đổi theo hướng nào?"</em></p>
+      <ul class="check">
+        <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 13l4 4L19 7"/></svg>Muốn văn bản tự nhiên hơn, ngắn hơn, đúng giọng hơn → <strong>Nhóm Writing</strong> (/ghost, /punch, /trim…)</li>
+        <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 13l4 4L19 7"/></svg>Muốn tạo app, dashboard, prototype chạy ngay → <strong>Nhóm Artifacts</strong> (ARTIFACTS, /buildme, DASHBOARD…)</li>
+        <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 13l4 4L19 7"/></svg>Muốn Claude cam kết một đáp án, phân tích sâu, hoặc thách thức câu hỏi → <strong>Nhóm Thinking</strong> (L99, ULTRATHINK, /skeptic…)</li>
+        <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 13l4 4L19 7"/></svg>Muốn so sánh, phân tích rủi ro, tìm trọng điểm → <strong>Nhóm Research</strong> (COMPARE, PARETO, /premortem…)</li>
+        <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 13l4 4L19 7"/></svg>Muốn debug, refactor, hoặc thiết kế kiến trúc → <strong>Nhóm Coding</strong> (/debug, REFACTOR, ARCHITECT)</li>
+        <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 13l4 4L19 7"/></svg>Muốn ép output thành bảng, checklist, email, hoặc giải thích đơn giản → <strong>Nhóm Format</strong> (/table, /checklist, /eli5…)</li>
+      </ul>
+    </div>
+
+    <div class="step">
+      <span class="step-num">2</span>
+      <h3>Paste mã vào đầu tin nhắn, yêu cầu theo sau</h3>
+      <p>Format luôn giống nhau: <strong>mã trước, yêu cầu sau</strong>. Không cần dấu phẩy hay dấu hai chấm. Vài ví dụ thực tế:</p>
+      <div class="code">
+        <div class="code-head">
+          <span>Writing — /ghost xoá dấu vết AI</span>
+          <button class="copy" onclick="cmaCopy('ex-ghost', this)">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><rect x="8" y="8" width="12" height="12" rx="2"/><path d="M16 8V6a2 2 0 0 0-2-2H6a2 2 0 0 0-2 2v8a2 2 0 0 0 2 2h2"/></svg>
+            <span class="lbl">Copy</span>
+          </button>
+        </div>
+        <pre><code id="ex-ghost">/ghost
+Viết đoạn giới thiệu sản phẩm cho app quản lý chi tiêu cá nhân,
+nhắm tới người 25-35 tuổi. Tone thân thiện, không quá formal.</code></pre>
+      </div>
+      <div class="code">
+        <div class="code-head">
+          <span>Thinking — L99 ép Claude cam kết một đáp án</span>
+          <button class="copy" onclick="cmaCopy('ex-l99', this)">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><rect x="8" y="8" width="12" height="12" rx="2"/><path d="M16 8V6a2 2 0 0 0-2-2H6a2 2 0 0 0-2 2v8a2 2 0 0 0 2 2h2"/></svg>
+            <span class="lbl">Copy</span>
+          </button>
+        </div>
+        <pre><code id="ex-l99">L99
+Mình nên dùng Postgres hay MongoDB cho startup fintech 5 người?</code></pre>
+      </div>
+      <div class="code">
+        <div class="code-head">
+          <span>Format — /table ép output thành bảng</span>
+          <button class="copy" onclick="cmaCopy('ex-table', this)">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><rect x="8" y="8" width="12" height="12" rx="2"/><path d="M16 8V6a2 2 0 0 0-2-2H6a2 2 0 0 0-2 2v8a2 2 0 0 0 2 2h2"/></svg>
+            <span class="lbl">Copy</span>
+          </button>
+        </div>
+        <pre><code id="ex-table">/table
+So sánh React, Vue, Svelte theo: learning curve, performance, ecosystem, job market</code></pre>
+      </div>
+      <div class="code">
+        <div class="code-head">
+          <span>Artifacts — /buildme tạo app chạy ngay</span>
+          <button class="copy" onclick="cmaCopy('ex-buildme', this)">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><rect x="8" y="8" width="12" height="12" rx="2"/><path d="M16 8V6a2 2 0 0 0-2-2H6a2 2 0 0 0-2 2v8a2 2 0 0 0 2 2h2"/></svg>
+            <span class="lbl">Copy</span>
+          </button>
+        </div>
+        <pre><code id="ex-buildme">/buildme app theo dõi thói quen hàng ngày:
+- Danh sách thói quen tuỳ chỉnh
+- Đánh dấu hoàn thành mỗi ngày
+- Hiện streak liên tiếp
+- Giao diện gọn, dùng được ngay</code></pre>
+      </div>
+    </div>
+
+    <div class="step">
+      <span class="step-num">3</span>
+      <h3>Thêm context càng cụ thể, kết quả càng tốt</h3>
+      <p>Mã lệnh là trigger — context của bạn là nhiên liệu. <code style="font-family:var(--font-mono);font-size:13px">L99 mình nên học gì?</code> sẽ kém hơn <code style="font-family:var(--font-mono);font-size:13px">L99 mình 28 tuổi, đang làm marketing, muốn chuyển sang AI trong 6 tháng tới — bắt đầu từ đâu?</code>. Mã chỉ thay đổi cách Claude xử lý, không thay thế được ngữ cảnh.</p>
+    </div>
+
+    <div class="box tip">
+      <svg class="box-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M9 18h6M10 21h4"/><path d="M12 3a6 6 0 0 0-4 10.5c.7.7 1 1.4 1 2.5h6c0-1.1.3-1.8 1-2.5A6 6 0 0 0 12 3Z"/></svg>
+      <span class="box-title">Combo mã hiệu quả nhất</span>
+      <p>Một số cặp mã bổ trợ nhau tốt: <strong>/ghost + /punch</strong> (humanize + đấm mạnh, dùng cho cold email), <strong>PERSONA + L99</strong> (góc nhìn chuyên gia + cam kết một đáp án, dùng cho quyết định kỹ thuật), <strong>/skeptic + ULTRATHINK</strong> (kiểm tra câu hỏi + phân tích sâu, dùng cho chiến lược). Tối đa 2 mã mỗi tin nhắn.</p>
+    </div>
+
+    <div class="box warn">
+      <svg class="box-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 4 2.6 20h18.8L12 4Z"/><path d="M12 10v4M12 17h.01"/></svg>
+      <span class="box-title">Những mã này không phải tính năng ẩn</span>
+      <p>Prompt Codes là <strong>quy ước cộng đồng</strong>, không phải lệnh chính thức của Anthropic. Claude nhận ra chúng vì đã được train trên hàng triệu cuộc hội thoại dùng các prefix này. Kết quả có thể khác nhau tuỳ model và tuỳ ngữ cảnh — thử và so sánh là cách tốt nhất để biết cái nào hiệu quả với workflow của bạn.</p>
+    </div>
+  </section>
+
+  <!-- PHẦN 4: TẢI DANH SÁCH -->
+  <section id="tai-danh-sach">
+    <h2>Tải danh sách 35 mã</h2>
+    <p>Toàn bộ 35 Prompt Codes kèm mô tả và ví dụ, đóng gói thành file <code style="font-family:var(--font-mono);font-size:14px">.txt</code> — lưu vào điện thoại hoặc note để tiện tra cứu khi cần.</p>
+
+    <div class="resource">
+      <h3 class="resource-title">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3l8 4.5v9L12 21l-8-4.5v-9L12 3Z"/><path d="M12 12l8-4.5M12 12v9M12 12L4 7.5"/></svg>
+        35 Prompt Codes Claude — Bộ đầy đủ (Claude.ai)
+      </h3>
+      <div class="resource-meta">
+        <span class="badge">35 mã lệnh</span>
+        <span class="badge green">Miễn phí</span>
+        <span class="badge">6 nhóm</span>
+      </div>
+      <p>File <strong>.txt</strong> ghi đầy đủ 35 mã theo 6 nhóm, kèm mô tả và ví dụ dùng thực tế. Lưu vào Notes hoặc Google Keep để tiện tra cứu khi cần.</p>
+      <div class="resource-actions">
+        <button class="rbtn rbtn-primary" onclick="cmaPack('bundle-codes','15-ma-lenh-claude-free.txt',this)">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3v12M7 11l5 5 5-5M5 21h14"/></svg>
+          <span class="lbl">Tải danh sách (.txt)</span>
+        </button>
+      </div>
+      <div class="resource-detail" id="detail-codes" hidden style="display:none">
+        <div class="detail-file">
+          <div class="detail-head">
+            <span>15-ma-lenh-claude-free.txt</span>
+            <button class="dbtn" onclick="cmaCopy('f-codes-1',this)">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><rect x="8" y="8" width="12" height="12" rx="2"/><path d="M16 8V6a2 2 0 0 0-2-2H6a2 2 0 0 0-2 2v8a2 2 0 0 0 2 2h2"/></svg>
+              <span class="lbl">Copy tất cả</span>
+            </button>
+          </div>
+          <pre class="detail-body"><code id="f-codes-1">===================================================
+15 MÃ LỆNH CLAUDE MIỄN PHÍ — Test thực chiến 2026
+Nguồn: Cường Mê AI — cuongmeai@gmail.com
+===================================================
+
+--- NHÓM WRITING (paste vào ĐẦU tin nhắn) ---
+
+/ghost
+Mô tả: Viết lại để không ai nhận ra AI tạo ra
+Ví dụ: /ghost + yêu cầu viết nội dung của bạn
+Khi nào: content marketing, bài đăng MXH, email
+
+/mirror
+Mô tả: Học giọng văn của bạn rồi viết y chang
+Ví dụ: /mirror [dán đoạn văn mẫu của bạn]
+Khi nào: muốn content đúng tone của bản thân
+
+/raw
+Mô tả: Tắt markdown, trả về văn bản thuần (-30% phức tạp)
+Ví dụ: /raw + yêu cầu bình thường
+Khi nào: copy sang hệ thống khác, không muốn ký tự markdown
+
+/voice
+Mô tả: Khoá tông giọng xuyên suốt conversation
+Ví dụ: /voice [ngắn gọn, chuyên nghiệp, không hoa mỹ]
+Khi nào: muốn giữ nhất quán phong cách trong cả cuộc chat
+
+/punch
+Mô tả: Viết ngắn hơn, đấm mạnh hơn (-40% số từ)
+Ví dụ: /punch + [đoạn văn cần cải thiện]
+Khi nào: copy quảng cáo, headline, email cold outreach, caption
+
+/flow
+Mô tả: Sắp xếp lại để đọc trôi chảy từ đầu đến cuối
+Ví dụ: /flow + [bài viết cần cải thiện flow]
+Khi nào: bài blog dài, email giải thích phức tạp
+
+/trim
+Mô tả: Cắt bỏ phần thừa, giữ nguyên ý (-50% độ dài)
+Ví dụ: /trim + [đoạn văn dài cần rút gọn]
+Khi nào: muốn tạo version ngắn từ bài dài, social post
+
+/hook
+Mô tả: Viết lại câu mở đầu để gây chú ý ngay
+Ví dụ: /hook + [câu mở đầu hiện tại của bạn]
+Khi nào: bài blog, email, caption MXH, video script
+
+/rephrase
+Mô tả: Diễn đạt lại cùng ý theo cách hoàn toàn khác
+Ví dụ: /rephrase + [đoạn cần diễn đạt lại]
+Khi nào: A/B testing, đoạn văn cũ cảm thấy không tự nhiên
+
+/polish
+Mô tả: Nâng cấp văn bản thô lên mức chuyên nghiệp
+Ví dụ: /polish + [bản draft thô của bạn]
+Khi nào: email quan trọng, đề xuất, báo cáo từ note nháp
+
+--- NHÓM ARTIFACTS (dùng THAY cho "viết cho tôi...") ---
+
+ARTIFACTS
+Mô tả: Tạo sản phẩm tương tác hoàn chỉnh (+3k token output)
+Ví dụ: ARTIFACTS tạo quiz kiểm tra tiếng Anh 10 câu
+Khi nào: mọi loại sản phẩm tương tác cần hiển thị ngay
+
+/buildme
+Mô tả: Xây app/tool đầy đủ chỉ từ một mô tả (+5k token output)
+Ví dụ: /buildme app đếm ngược pomodoro 25 phút
+Khi nào: muốn app hoạt động thật, có UI, chạy được ngay
+
+DASHBOARD
+Mô tả: Tạo dashboard dữ liệu trực quan có thể tương tác
+Ví dụ: DASHBOARD [paste dữ liệu doanh số của bạn]
+Khi nào: có dữ liệu thô muốn visualize nhanh
+
+PROTOTYPE
+Mô tả: Dựng prototype từ ý tưởng, hoạt động được ngay
+Ví dụ: PROTOTYPE app đặt lịch cắt tóc online
+Khi nào: trình bày ý tưởng cho khách/team, test nhanh concept
+
+CANVAS
+Mô tả: Mở không gian thiết kế layout, sơ đồ, wireframe
+Ví dụ: CANVAS vẽ sơ đồ luồng đăng ký tài khoản
+Khi nào: cần wireframe, flowchart, layout mà không có Figma
+
+===================================================
+TIP: Không stack quá 2 mã trong 1 tin nhắn.
+      Mỗi mã = 1 mục tiêu cụ thể = 1 tin nhắn riêng.
+===================================================</code></pre>
+        </div>
+      </div>
+      <script type="application/json" id="bundle-codes">[
+        {"id":"f-codes-1","filename":"15-ma-lenh-claude-free.txt"}
+      ]</script>
+    </div>
+
+  </section>
+
+  <section id="slash-commands">
+    <h2>Slash Commands — Claude Code</h2>
+    <p>Đây là các lệnh dành riêng cho <strong>Claude Code</strong> — công cụ AI dòng lệnh (CLI) của Anthropic, dùng trong terminal hoặc cửa sổ chat của IDE. Gõ trực tiếp trong chat, bắt đầu bằng <code style="font-family:var(--font-mono);background:var(--surface-code);color:#86efac;padding:2px 7px;border-radius:4px;font-size:13px">/</code>.</p>
+
+    <div class="box note">
+      <svg class="box-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M12 11v5M12 7.5h.01"/></svg>
+      <span class="box-title">Claude Code khác Claude.ai</span>
+      <p>Claude Code là ứng dụng cài trong terminal (<code style="font-family:var(--font-mono);font-size:13px">npm install -g @anthropic-ai/claude-code</code>), chuyên cho lập trình và tác vụ agentic. Nếu đang dùng Claude.ai trên trình duyệt, các lệnh này <strong>không có tác dụng</strong> — chỉ chạy trong môi trường Claude Code.</p>
+    </div>
+
+    <!-- Group 1: Quản lý phiên -->
+    <div class="slash-group">
+      <div class="sh-head">
+        <h3>Quản lý phiên làm việc</h3>
+        <span class="cat-count">17 lệnh</span>
+      </div>
+      <div class="slash-list">
+        <div class="slash-item">
+          <span class="slash-cmd">/clear</span>
+          <p class="slash-desc">Bắt đầu conversation mới (giữ nguyên project memory)</p>
+        </div>
+        <div class="slash-item">
+          <span class="slash-cmd">/compact</span>
+          <p class="slash-desc">Tóm tắt conversation để giải phóng context window<span class="slash-param">[focus] — chủ đề cần giữ lại</span></p>
+        </div>
+        <div class="slash-item">
+          <span class="slash-cmd">/resume</span>
+          <p class="slash-desc">Tiếp tục conversation cũ theo ID hoặc tên<span class="slash-param">[session] — ID phiên cần mở lại</span></p>
+        </div>
+        <div class="slash-item">
+          <span class="slash-cmd">/branch</span>
+          <p class="slash-desc">Fork conversation tại điểm hiện tại để thử hướng khác<span class="slash-param">[name] — tên nhánh; alias /fork</span></p>
+        </div>
+        <div class="slash-item">
+          <span class="slash-cmd">/rewind</span>
+          <p class="slash-desc">Quay lại điểm trước — huỷ code và/hoặc conversation (Esc Esc)<span class="slash-param">alias /undo, /checkpoint</span></p>
+        </div>
+        <div class="slash-item">
+          <span class="slash-cmd">/context</span>
+          <p class="slash-desc">Xem biểu đồ mức dùng context window<span class="slash-param">[all] — hiện toàn bộ chi tiết</span></p>
+        </div>
+        <div class="slash-item">
+          <span class="slash-cmd">/export</span>
+          <p class="slash-desc">Xuất conversation thành file text<span class="slash-param">[file] — đường dẫn file xuất</span></p>
+        </div>
+        <div class="slash-item">
+          <span class="slash-cmd">/copy</span>
+          <p class="slash-desc">Copy response cuối (hoặc response thứ N) vào clipboard<span class="slash-param">[N] — số thứ tự response</span></p>
+        </div>
+        <div class="slash-item">
+          <span class="slash-cmd">/recap</span>
+          <p class="slash-desc">Tóm tắt một dòng toàn bộ phiên làm việc hiện tại</p>
+        </div>
+        <div class="slash-item">
+          <span class="slash-cmd">/btw</span>
+          <p class="slash-desc">Hỏi câu hỏi nhanh mà không làm phình history<span class="slash-param">&lt;question&gt; — câu hỏi phụ</span></p>
+        </div>
+        <div class="slash-item">
+          <span class="slash-cmd">/exit</span>
+          <p class="slash-desc">Thoát Claude Code (tương đương bấm Ctrl+D)</p>
+        </div>
+        <div class="slash-item">
+          <span class="slash-cmd">/restart</span>
+          <p class="slash-desc">Khởi động lại phiên, giữ nguyên skills đã tải và file CLAUDE.md</p>
+        </div>
+        <div class="slash-item">
+          <span class="slash-cmd">/logout</span>
+          <p class="slash-desc">Đăng xuất khỏi tài khoản Anthropic hiện tại</p>
+        </div>
+        <div class="slash-item">
+          <span class="slash-cmd">/release-notes</span>
+          <p class="slash-desc">Xem changelog với trình chọn phiên bản tương tác</p>
+        </div>
+        <div class="slash-item">
+          <span class="slash-cmd">/terminal-setup</span>
+          <p class="slash-desc">Cài shell integration để dùng Shift+Enter nhập nhiều dòng</p>
+        </div>
+        <div class="slash-item">
+          <span class="slash-cmd">/pr_comments</span>
+          <p class="slash-desc">Tải và hiển thị comment từ GitHub Pull Request<span class="slash-param">yêu cầu GitHub MCP</span></p>
+        </div>
+        <div class="slash-item">
+          <span class="slash-cmd">/bug</span>
+          <p class="slash-desc">Báo lỗi Claude Code trực tiếp tới Anthropic</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Group 2: Điều khiển AI -->
+    <div class="slash-group">
+      <div class="sh-head">
+        <h3>Điều khiển AI</h3>
+        <span class="cat-count">9 lệnh</span>
+      </div>
+      <div class="slash-list">
+        <div class="slash-item">
+          <span class="slash-cmd">/model</span>
+          <p class="slash-desc">Đổi model AI (mở picker; ← → để chỉnh effort)<span class="slash-param">[model] — tên model cụ thể</span></p>
+        </div>
+        <div class="slash-item">
+          <span class="slash-cmd">/effort</span>
+          <p class="slash-desc">Chỉnh mức độ suy luận<span class="slash-param">[level] — low / medium / high / xhigh / max</span></p>
+        </div>
+        <div class="slash-item">
+          <span class="slash-cmd">/fast</span>
+          <p class="slash-desc">Bật/tắt Fast Mode — Opus output nhanh hơn<span class="slash-param">[on|off]</span></p>
+        </div>
+        <div class="slash-item">
+          <span class="slash-cmd">/plan</span>
+          <p class="slash-desc">Vào Plan Mode — Claude lên kế hoạch trước khi làm<span class="slash-param">[desc] — mô tả tác vụ</span></p>
+        </div>
+        <div class="slash-item">
+          <span class="slash-cmd">/goal</span>
+          <p class="slash-desc">Claude tiếp tục làm việc cho đến khi điều kiện được thoả mãn<span class="slash-param">[condition] — điều kiện hoàn thành</span></p>
+        </div>
+        <div class="slash-item">
+          <span class="slash-cmd">/approve</span>
+          <p class="slash-desc">Phê duyệt kế hoạch từ /plan và bắt đầu thực thi</p>
+        </div>
+        <div class="slash-item">
+          <span class="slash-cmd">/skip</span>
+          <p class="slash-desc">Bỏ qua bước hiện tại và chuyển sang bước tiếp theo</p>
+        </div>
+        <div class="slash-item">
+          <span class="slash-cmd">/retry</span>
+          <p class="slash-desc">Thử lại hành động cuối cùng bị thất bại</p>
+        </div>
+        <div class="slash-item">
+          <span class="slash-cmd">/explain</span>
+          <p class="slash-desc">Yêu cầu Claude giải thích chi tiết hơn về response vừa đưa ra</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Group 3: Review & kiểm thử -->
+    <div class="slash-group">
+      <div class="sh-head">
+        <h3>Review code &amp; kiểm thử</h3>
+        <span class="cat-count">7 lệnh</span>
+      </div>
+      <div class="slash-list">
+        <div class="slash-item">
+          <span class="slash-cmd">/code-review</span>
+          <p class="slash-desc">Review diff cho bugs và cleanup; --fix tự áp dụng sửa<span class="slash-param">[effort] [--fix]</span></p>
+        </div>
+        <div class="slash-item">
+          <span class="slash-cmd">/simplify</span>
+          <p class="slash-desc">Review cleanup-only (chỉ dọn dẹp, không tìm bug)<span class="slash-param">[target] — file hoặc phần cần simplify</span></p>
+        </div>
+        <div class="slash-item">
+          <span class="slash-cmd">/security-review</span>
+          <p class="slash-desc">Quét diff tìm lỗ hổng bảo mật</p>
+        </div>
+        <div class="slash-item">
+          <span class="slash-cmd">/review</span>
+          <p class="slash-desc">Review pull request cục bộ (không cần mở GitHub)<span class="slash-param">[PR] — số hoặc link PR</span></p>
+        </div>
+        <div class="slash-item">
+          <span class="slash-cmd">/run</span>
+          <p class="slash-desc">Chạy app và kiểm tra xem thay đổi có hoạt động không</p>
+        </div>
+        <div class="slash-item">
+          <span class="slash-cmd">/verify</span>
+          <p class="slash-desc">Xác nhận thay đổi code hoạt động đúng như mong muốn</p>
+        </div>
+        <div class="slash-item">
+          <span class="slash-cmd">/diff</span>
+          <p class="slash-desc">Mở diff viewer tương tác để xem các thay đổi</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Group 4: Tự động hoá -->
+    <div class="slash-group">
+      <div class="sh-head">
+        <h3>Tự động hoá</h3>
+        <span class="cat-count">7 lệnh</span>
+      </div>
+      <div class="slash-list">
+        <div class="slash-item">
+          <span class="slash-cmd">/loop</span>
+          <p class="slash-desc">Chạy một prompt theo chu kỳ lặp lại<span class="slash-param">[interval] [prompt]; alias /proactive</span></p>
+        </div>
+        <div class="slash-item">
+          <span class="slash-cmd">/workflows</span>
+          <p class="slash-desc">Xem và quản lý các multi-agent workflow đang chạy</p>
+        </div>
+        <div class="slash-item">
+          <span class="slash-cmd">/batch</span>
+          <p class="slash-desc">Phân tách tác vụ lớn và xử lý song song trên nhiều worktree<span class="slash-param">&lt;instruction&gt;</span></p>
+        </div>
+        <div class="slash-item">
+          <span class="slash-cmd">/schedule</span>
+          <p class="slash-desc">Tạo cloud agent theo lịch (cron routine)<span class="slash-param">[desc] — mô tả tác vụ định kỳ</span></p>
+        </div>
+        <div class="slash-item">
+          <span class="slash-cmd">/git</span>
+          <p class="slash-desc">Thực hiện git operations (commit, push, branch) có xác nhận<span class="slash-param">⚠ cộng đồng — chưa xác nhận trong tài liệu chính thức</span></p>
+        </div>
+        <div class="slash-item">
+          <span class="slash-cmd">/test</span>
+          <p class="slash-desc">Chạy test suite sau khi Claude thực hiện thay đổi code<span class="slash-param">⚠ cộng đồng — chưa xác nhận trong tài liệu chính thức</span></p>
+        </div>
+        <div class="slash-item">
+          <span class="slash-cmd">/web</span>
+          <p class="slash-desc">Buộc Claude tìm kiếm web trước khi trả lời<span class="slash-param">⚠ cộng đồng — chưa xác nhận trong tài liệu chính thức</span></p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Group 5: Cài đặt -->
+    <div class="slash-group">
+      <div class="sh-head">
+        <h3>Cài đặt &amp; cấu hình</h3>
+        <span class="cat-count">12 lệnh</span>
+      </div>
+      <div class="slash-list">
+        <div class="slash-item">
+          <span class="slash-cmd">/config</span>
+          <p class="slash-desc">Mở Settings (alias /settings)</p>
+        </div>
+        <div class="slash-item">
+          <span class="slash-cmd">/permissions</span>
+          <p class="slash-desc">Xem hoặc cập nhật quyền truy cập tool</p>
+        </div>
+        <div class="slash-item">
+          <span class="slash-cmd">/mcp</span>
+          <p class="slash-desc">Quản lý MCP server và xác thực OAuth</p>
+        </div>
+        <div class="slash-item">
+          <span class="slash-cmd">/agents</span>
+          <p class="slash-desc">Tạo và quản lý subagent</p>
+        </div>
+        <div class="slash-item">
+          <span class="slash-cmd">/hooks</span>
+          <p class="slash-desc">Cấu hình lifecycle hooks (chạy script trước/sau tác vụ)</p>
+        </div>
+        <div class="slash-item">
+          <span class="slash-cmd">/memory</span>
+          <p class="slash-desc">Chỉnh sửa CLAUDE.md và bật/tắt auto-memory</p>
+        </div>
+        <div class="slash-item">
+          <span class="slash-cmd">/init</span>
+          <p class="slash-desc">Tạo file CLAUDE.md khởi đầu cho project</p>
+        </div>
+        <div class="slash-item">
+          <span class="slash-cmd">/cd</span>
+          <p class="slash-desc">Chuyển phiên sang thư mục làm việc mới<span class="slash-param">&lt;path&gt; — đường dẫn (v2.1.169+)</span></p>
+        </div>
+        <div class="slash-item">
+          <span class="slash-cmd">/add-dir</span>
+          <p class="slash-desc">Thêm thư mục làm việc bổ sung vào phiên<span class="slash-param">&lt;path&gt;</span></p>
+        </div>
+        <div class="slash-item">
+          <span class="slash-cmd">/skills</span>
+          <p class="slash-desc">Liệt kê tất cả skills đang có sẵn</p>
+        </div>
+        <div class="slash-item">
+          <span class="slash-cmd">/reload-skills</span>
+          <p class="slash-desc">Re-scan skills mà không cần khởi động lại</p>
+        </div>
+        <div class="slash-item">
+          <span class="slash-cmd">/plugin</span>
+          <p class="slash-desc">Quản lý plugin (install / enable / disable)</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Group 6: Tiện ích -->
+    <div class="slash-group">
+      <div class="sh-head">
+        <h3>Tiện ích</h3>
+        <span class="cat-count">12 lệnh</span>
+      </div>
+      <div class="slash-list">
+        <div class="slash-item">
+          <span class="slash-cmd">/voice</span>
+          <p class="slash-desc">Bật/tắt nhập liệu bằng giọng nói (push-to-talk)</p>
+        </div>
+        <div class="slash-item">
+          <span class="slash-cmd">/status</span>
+          <p class="slash-desc">Xem version, model, tài khoản và kết nối mạng</p>
+        </div>
+        <div class="slash-item">
+          <span class="slash-cmd">/usage</span>
+          <p class="slash-desc">Giới hạn plan và chi phí theo từng danh mục (alias /cost)</p>
+        </div>
+        <div class="slash-item">
+          <span class="slash-cmd">/doctor</span>
+          <p class="slash-desc">Chẩn đoán lỗi cài đặt và cấu hình</p>
+        </div>
+        <div class="slash-item">
+          <span class="slash-cmd">/login</span>
+          <p class="slash-desc">Đăng nhập hoặc chuyển tài khoản Anthropic</p>
+        </div>
+        <div class="slash-item">
+          <span class="slash-cmd">/help</span>
+          <p class="slash-desc">Xem danh sách tất cả lệnh có sẵn</p>
+        </div>
+        <div class="slash-item">
+          <span class="slash-cmd">/cost</span>
+          <p class="slash-desc">Xem chi tiết token đã dùng và chi phí theo từng model</p>
+        </div>
+        <div class="slash-item">
+          <span class="slash-cmd">/version</span>
+          <p class="slash-desc">Hiển thị phiên bản Claude Code đang cài</p>
+        </div>
+        <div class="slash-item">
+          <span class="slash-cmd">/files</span>
+          <p class="slash-desc">Liệt kê tất cả file Claude đang có quyền truy cập trong phiên</p>
+        </div>
+        <div class="slash-item">
+          <span class="slash-cmd">/tools</span>
+          <p class="slash-desc">Liệt kê tất cả tool Claude có thể gọi (Bash, Read, Write, Edit...)</p>
+        </div>
+        <div class="slash-item">
+          <span class="slash-cmd">/docs</span>
+          <p class="slash-desc">Mở tài liệu chính thức Claude Code trong trình duyệt</p>
+        </div>
+        <div class="slash-item">
+          <span class="slash-cmd">/buddy</span>
+          <p class="slash-desc">Bật trợ lý terminal ảo (thú cưng màn hình)<span class="slash-param">pet · card · mute · unmute · off — ra mắt v2.1.89</span></p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Group 7: Lệnh tuỳ chỉnh phổ biến -->
+    <div class="slash-group">
+      <div class="sh-head">
+        <h3>Lệnh tuỳ chỉnh phổ biến</h3>
+        <span class="cat-count">36 lệnh</span>
+      </div>
+      <div class="box note" style="margin-bottom:16px">
+        <svg class="box-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M12 11v5M12 7.5h.01"/></svg>
+        <span class="box-title">Lệnh tuỳ chỉnh — cần tạo file trước</span>
+        <p>Các lệnh bên dưới <strong>không có sẵn</strong> trong Claude Code. Để dùng, bạn tạo file <code style="font-family:var(--font-mono);font-size:13px">.claude/commands/TEN_LENH.md</code> trong project (hoặc <code style="font-family:var(--font-mono);font-size:13px">~/.claude/commands/</code> để dùng toàn cục). Nội dung file là prompt hướng dẫn Claude thực hiện lệnh đó. Gõ <code style="font-family:var(--font-mono);font-size:13px">/TEN_LENH</code> để gọi.</p>
+      </div>
+      <div class="slash-list">
+        <div class="slash-item">
+          <span class="slash-cmd">/commit</span>
+          <p class="slash-desc">Stage thay đổi và tạo commit message theo quy tắc Conventional Commits</p>
+        </div>
+        <div class="slash-item">
+          <span class="slash-cmd">/push</span>
+          <p class="slash-desc">Push branch hiện tại lên remote, tự xử lý upstream nếu chưa có</p>
+        </div>
+        <div class="slash-item">
+          <span class="slash-cmd">/pr</span>
+          <p class="slash-desc">Tạo Pull Request tự động với title + description theo template</p>
+        </div>
+        <div class="slash-item">
+          <span class="slash-cmd">/lint</span>
+          <p class="slash-desc">Chạy linter cho toàn bộ project, tự sửa lỗi tìm được</p>
+        </div>
+        <div class="slash-item">
+          <span class="slash-cmd">/fix-pipeline</span>
+          <p class="slash-desc">Tìm nguyên nhân CI/CD bị đỏ và đưa ra bản sửa</p>
+        </div>
+        <div class="slash-item">
+          <span class="slash-cmd">/merge-to-main</span>
+          <p class="slash-desc">Merge branch hiện tại vào main sau khi check conflict</p>
+        </div>
+        <div class="slash-item">
+          <span class="slash-cmd">/deploy</span>
+          <p class="slash-desc">Build và deploy ứng dụng lên môi trường staging/production</p>
+        </div>
+        <div class="slash-item">
+          <span class="slash-cmd">/hotfix</span>
+          <p class="slash-desc">Tạo branch hotfix từ main, sửa lỗi khẩn, merge ngược về</p>
+        </div>
+        <div class="slash-item">
+          <span class="slash-cmd">/release</span>
+          <p class="slash-desc">Tạo bản release mới: bump version, cập nhật CHANGELOG, tag git</p>
+        </div>
+        <div class="slash-item">
+          <span class="slash-cmd">/bump</span>
+          <p class="slash-desc">Tăng version theo semver (patch/minor/major)</p>
+        </div>
+        <div class="slash-item">
+          <span class="slash-cmd">/ship</span>
+          <p class="slash-desc">Luồng đầy đủ: commit → push → PR → merge trong một lệnh</p>
+        </div>
+        <div class="slash-item">
+          <span class="slash-cmd">/format</span>
+          <p class="slash-desc">Format toàn bộ code theo chuẩn của project (Prettier/Black/gofmt...)</p>
+        </div>
+        <div class="slash-item">
+          <span class="slash-cmd">/clean</span>
+          <p class="slash-desc">Xóa file build, cache, và artifact tạm thời</p>
+        </div>
+        <div class="slash-item">
+          <span class="slash-cmd">/debug</span>
+          <p class="slash-desc">Phân tích lỗi hiện tại, đề xuất fix có giải thích nguyên nhân</p>
+        </div>
+        <div class="slash-item">
+          <span class="slash-cmd">/refactor</span>
+          <p class="slash-desc">Tái cấu trúc đoạn code chỉ định mà không thay đổi hành vi</p>
+        </div>
+        <div class="slash-item">
+          <span class="slash-cmd">/optimize</span>
+          <p class="slash-desc">Tối ưu hiệu năng cho đoạn code hoặc query được chỉ định</p>
+        </div>
+        <div class="slash-item">
+          <span class="slash-cmd">/scaffold</span>
+          <p class="slash-desc">Tạo cấu trúc thư mục + file boilerplate cho tính năng mới</p>
+        </div>
+        <div class="slash-item">
+          <span class="slash-cmd">/document</span>
+          <p class="slash-desc">Viết docstring/JSDoc/comment cho hàm hoặc module được chỉ định</p>
+        </div>
+        <div class="slash-item">
+          <span class="slash-cmd">/changelog</span>
+          <p class="slash-desc">Tổng hợp các commit từ lần release cuối thành CHANGELOG.md</p>
+        </div>
+        <div class="slash-item">
+          <span class="slash-cmd">/audit</span>
+          <p class="slash-desc">Kiểm tra dependencies lỗi thời hoặc có lỗ hổng đã biết</p>
+        </div>
+        <div class="slash-item">
+          <span class="slash-cmd">/security-scan</span>
+          <p class="slash-desc">Quét toàn bộ codebase tìm vấn đề bảo mật (hardcoded secrets, injection...)</p>
+        </div>
+        <div class="slash-item">
+          <span class="slash-cmd">/api</span>
+          <p class="slash-desc">Tạo endpoint API mới theo chuẩn RESTful của project</p>
+        </div>
+        <div class="slash-item">
+          <span class="slash-cmd">/fix</span>
+          <p class="slash-desc">Sửa lỗi cụ thể được mô tả, giải thích lý do và cách phòng ngừa</p>
+        </div>
+        <div class="slash-item">
+          <span class="slash-cmd">/sync</span>
+          <p class="slash-desc">Đồng bộ branch hiện tại với main/master mới nhất (fetch + rebase)</p>
+        </div>
+        <div class="slash-item">
+          <span class="slash-cmd">/rebase</span>
+          <p class="slash-desc">Rebase branch lên HEAD của main, tự giải quyết conflict đơn giản</p>
+        </div>
+        <div class="slash-item">
+          <span class="slash-cmd">/setup</span>
+          <p class="slash-desc">Cài dependencies và cấu hình môi trường dev cho project mới clone</p>
+        </div>
+        <div class="slash-item">
+          <span class="slash-cmd">/check</span>
+          <p class="slash-desc">Chạy toàn bộ kiểm tra: lint + type-check + test trong một lệnh</p>
+        </div>
+        <div class="slash-item">
+          <span class="slash-cmd">/save</span>
+          <p class="slash-desc">Lưu trạng thái hiện tại vào stash hoặc commit WIP</p>
+        </div>
+        <div class="slash-item">
+          <span class="slash-cmd">/load</span>
+          <p class="slash-desc">Khôi phục trạng thái đã lưu từ stash hoặc WIP commit</p>
+        </div>
+        <div class="slash-item">
+          <span class="slash-cmd">/snapshot</span>
+          <p class="slash-desc">Tạo stash có nhãn từ trạng thái working tree hiện tại</p>
+        </div>
+        <div class="slash-item">
+          <span class="slash-cmd">/migrate</span>
+          <p class="slash-desc">Tạo và chạy database migration cho schema thay đổi</p>
+        </div>
+        <div class="slash-item">
+          <span class="slash-cmd">/test-gen</span>
+          <p class="slash-desc">Tự động viết unit test cho hàm hoặc module được chỉ định</p>
+        </div>
+        <div class="slash-item">
+          <span class="slash-cmd">/summarize</span>
+          <p class="slash-desc">Tóm tắt nội dung PR/issue/discussion thành bullet points súc tích</p>
+        </div>
+        <div class="slash-item">
+          <span class="slash-cmd">/vitest</span>
+          <p class="slash-desc">Chạy Vitest cho component/file được chỉ định và hiển thị kết quả</p>
+        </div>
+        <div class="slash-item">
+          <span class="slash-cmd">/review-coderabbit</span>
+          <p class="slash-desc">Chạy CodeRabbit review và tổng hợp feedback dạng dễ đọc</p>
+        </div>
+        <div class="slash-item">
+          <span class="slash-cmd">/branch</span>
+          <p class="slash-desc">Tạo feature branch mới theo quy tắc đặt tên của team</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Resource card cho slash commands -->
+    <div class="resource">
+      <h3 class="resource-title">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3l8 4.5v9L12 21l-8-4.5v-9L12 3Z"/><path d="M12 12l8-4.5M12 12v9M12 12L4 7.5"/></svg>
+        100+ Slash Commands — Claude Code (full list)
+      </h3>
+      <div class="resource-meta">
+        <span class="badge">100+ lệnh</span>
+        <span class="badge purple">Claude Code CLI</span>
+      </div>
+      <p>Toàn bộ 100+ slash commands theo 7 nhóm, kèm tham số và mô tả tiếng Việt. Lưu về để tra cứu nhanh khi làm việc với Claude Code.</p>
+      <div class="resource-actions">
+        <button class="rbtn rbtn-primary" onclick="cmaPack('bundle-slash','slash-commands-claude-code.txt',this)">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3v12M7 11l5 5 5-5M5 21h14"/></svg>
+          <span class="lbl">Tải danh sách (.txt)</span>
+        </button>
+      </div>
+      <div class="resource-detail" id="detail-slash" hidden>
+        <div class="detail-file">
+          <div class="detail-head">
+            <span>slash-commands-claude-code.txt</span>
+            <button class="dbtn" onclick="cmaCopy('f-slash-1',this)">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><rect x="8" y="8" width="12" height="12" rx="2"/><path d="M16 8V6a2 2 0 0 0-2-2H6a2 2 0 0 0-2 2v8a2 2 0 0 0 2 2h2"/></svg>
+              <span class="lbl">Copy tất cả</span>
+            </button>
+          </div>
+          <pre class="detail-body"><code id="f-slash-1">===================================================
+100+ SLASH COMMANDS — CLAUDE CODE (CLI)
+Dùng trong terminal / IDE với Claude Code
+===================================================
+
+--- QUẢN LÝ PHIÊN LÀM VIỆC (17 lệnh) ---
+
+/clear                  Bắt đầu conversation mới (giữ project memory)
+/compact [focus]        Tóm tắt conversation để giải phóng context
+/resume [session]       Tiếp tục conversation cũ theo ID/tên
+/branch [name]          Fork conversation tại điểm hiện tại (alias /fork)
+/rewind                 Quay lại điểm trước — huỷ code và conversation (alias /undo, /checkpoint)
+/context [all]          Xem mức dùng context window
+/export [file]          Xuất conversation thành file text
+/copy [N]               Copy response cuối (hoặc thứ N) vào clipboard
+/recap                  Tóm tắt một dòng phiên làm việc hiện tại
+/btw &lt;question&gt;         Hỏi câu phụ mà không làm phình history
+/exit                   Thoát Claude Code (tương đương Ctrl+D)
+/restart                Khởi động lại phiên, giữ nguyên skills và CLAUDE.md
+/logout                 Đăng xuất khỏi tài khoản Anthropic hiện tại
+/release-notes          Xem changelog với trình chọn phiên bản tương tác
+/terminal-setup         Cài shell integration (Shift+Enter nhập nhiều dòng)
+/pr_comments            Tải và hiển thị comment từ GitHub PR (cần GitHub MCP)
+/bug                    Báo lỗi Claude Code trực tiếp tới Anthropic
+
+--- ĐIỀU KHIỂN AI (9 lệnh) ---
+
+/model [model]          Đổi model (picker; ← → chỉnh effort)
+/effort [level]         Chỉnh suy luận: low / medium / high / xhigh / max
+/fast [on|off]          Bật/tắt Fast Mode (Opus output nhanh hơn)
+/plan [desc]            Vào Plan Mode — Claude lên kế hoạch trước khi làm
+/goal [condition]       Tiếp tục cho đến khi điều kiện được thoả mãn
+/approve                Phê duyệt kế hoạch từ /plan và bắt đầu thực thi
+/skip                   Bỏ qua bước hiện tại và chuyển sang bước tiếp theo
+/retry                  Thử lại hành động cuối cùng bị thất bại
+/explain                Yêu cầu Claude giải thích chi tiết hơn về response vừa đưa ra
+
+--- REVIEW CODE &amp; KIỂM THỬ (7 lệnh) ---
+
+/code-review [effort] [--fix]  Review diff cho bugs + cleanup; --fix tự sửa
+/simplify [target]      Cleanup-only review (không tìm bug)
+/security-review        Quét diff tìm lỗ hổng bảo mật
+/review [PR]            Review pull request cục bộ
+/run                    Chạy app và xác nhận thay đổi hoạt động
+/verify                 Xác nhận thay đổi code đúng như mong muốn
+/diff                   Mở diff viewer tương tác
+
+--- TỰ ĐỘNG HOÁ (7 lệnh) ---
+
+/loop [interval] [prompt]  Chạy prompt theo chu kỳ lặp lại (alias /proactive)
+/workflows              Xem và quản lý multi-agent workflow
+/batch &lt;instruction&gt;    Phân tách tác vụ lớn, xử lý song song nhiều worktree
+/schedule [desc]        Tạo cloud agent theo lịch (cron routine)
+/git                    Thực hiện git operations có xác nhận (commit, push, branch)
+/test                   Chạy test suite sau khi Claude thực hiện thay đổi code
+/web                    Buộc Claude tìm kiếm web trước khi trả lời
+
+--- CÀI ĐẶT &amp; CẤU HÌNH (12 lệnh) ---
+
+/config                 Mở Settings (alias /settings)
+/permissions            Xem hoặc cập nhật quyền truy cập tool
+/mcp                    Quản lý MCP server và xác thực OAuth
+/agents                 Tạo và quản lý subagent
+/hooks                  Cấu hình lifecycle hooks
+/memory                 Chỉnh sửa CLAUDE.md và bật/tắt auto-memory
+/init                   Tạo file CLAUDE.md khởi đầu cho project
+/cd &lt;path&gt;              Chuyển phiên sang thư mục làm việc mới (v2.1.169+)
+/add-dir &lt;path&gt;         Thêm thư mục làm việc bổ sung
+/skills                 Liệt kê tất cả skills có sẵn
+/reload-skills          Re-scan skills mà không cần restart
+/plugin                 Quản lý plugin (install / enable / disable)
+
+--- TIỆN ÍCH (12 lệnh) ---
+
+/voice                  Bật/tắt nhập liệu bằng giọng nói (push-to-talk)
+/status                 Xem version, model, tài khoản và kết nối mạng
+/usage                  Giới hạn plan + chi phí theo danh mục (alias /cost)
+/doctor                 Chẩn đoán lỗi cài đặt và cấu hình
+/login                  Đăng nhập hoặc chuyển tài khoản Anthropic
+/help                   Xem danh sách tất cả lệnh có sẵn
+/cost                   Xem chi tiết token đã dùng và chi phí theo từng model
+/version                Hiển thị phiên bản Claude Code đang cài
+/files                  Liệt kê tất cả file Claude có quyền truy cập trong phiên
+/tools                  Liệt kê tất cả tool Claude có thể gọi (Bash, Read, Write...)
+/docs                   Mở tài liệu chính thức Claude Code trong trình duyệt
+/buddy                  Bật trợ lý terminal ảo (subcommands: pet/card/mute/unmute/off)
+
+===================================================
+LỆNH TUỲ CHỈNH PHỔ BIẾN (cần tạo .claude/commands/TEN_LENH.md)
+===================================================
+
+/commit         Stage thay đổi và tạo commit message theo Conventional Commits
+/push           Push branch lên remote, tự xử lý upstream nếu chưa có
+/pr             Tạo Pull Request tự động với title + description theo template
+/lint           Chạy linter, tự sửa lỗi tìm được
+/fix-pipeline   Tìm nguyên nhân CI/CD bị đỏ và đưa ra bản sửa
+/merge-to-main  Merge branch hiện tại vào main sau khi check conflict
+/deploy         Build và deploy lên staging/production
+/hotfix         Tạo branch hotfix từ main, sửa lỗi khẩn, merge ngược về
+/release        Bump version + cập nhật CHANGELOG + tag git
+/bump           Tăng version theo semver (patch/minor/major)
+/ship           Luồng đầy đủ: commit → push → PR → merge trong một lệnh
+/format         Format toàn bộ code theo chuẩn project (Prettier/Black/gofmt...)
+/clean          Xóa file build, cache, artifact tạm thời
+/debug          Phân tích lỗi, đề xuất fix có giải thích nguyên nhân
+/refactor       Tái cấu trúc code mà không thay đổi hành vi
+/optimize       Tối ưu hiệu năng cho đoạn code hoặc query được chỉ định
+/scaffold       Tạo cấu trúc thư mục + boilerplate cho tính năng mới
+/document       Viết docstring/JSDoc/comment cho hàm hoặc module
+/changelog      Tổng hợp commit từ release cuối thành CHANGELOG.md
+/audit          Kiểm tra dependencies lỗi thời hoặc có lỗ hổng đã biết
+/security-scan  Quét codebase tìm secrets, injection, lỗ hổng bảo mật
+/api            Tạo endpoint API mới theo chuẩn RESTful của project
+/fix            Sửa lỗi cụ thể, giải thích lý do và cách phòng ngừa
+/sync           Đồng bộ branch với main mới nhất (fetch + rebase)
+/rebase         Rebase branch lên HEAD của main, tự giải quyết conflict đơn giản
+/setup          Cài dependencies + cấu hình môi trường dev cho project mới clone
+/check          Chạy toàn bộ kiểm tra: lint + type-check + test
+/save           Lưu trạng thái hiện tại vào stash hoặc WIP commit
+/load           Khôi phục trạng thái đã lưu từ stash hoặc WIP commit
+/snapshot       Tạo stash có nhãn từ trạng thái working tree hiện tại
+/migrate        Tạo và chạy database migration cho schema thay đổi
+/test-gen       Tự động viết unit test cho hàm hoặc module được chỉ định
+/summarize      Tóm tắt PR/issue/discussion thành bullet points súc tích
+/vitest         Chạy Vitest cho component/file được chỉ định
+/review-coderabbit  Chạy CodeRabbit review và tổng hợp feedback
+/branch         Tạo feature branch mới theo quy tắc đặt tên của team
+
+===================================================
+Cách tạo lệnh tuỳ chỉnh:
+  mkdir -p .claude/commands
+  echo "[prompt hướng dẫn Claude]" &gt; .claude/commands/TEN_LENH.md
+  Sau đó gõ /TEN_LENH trong Claude Code
+===================================================
+Nguồn: Claude Code documentation + techbytes.app
+===================================================</code></pre>
+        </div>
+      </div>
+      <script type="application/json" id="bundle-slash">[
+        {"id":"f-slash-1","filename":"slash-commands-claude-code.txt"}
+      ]</script>
+    </div>
+
+    <div class="box tip">
+      <svg class="box-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M9 18h6M10 21h4"/><path d="M12 3a6 6 0 0 0-4 10.5c.7.7 1 1.4 1 2.5h6c0-1.1.3-1.8 1-2.5A6 6 0 0 0 12 3Z"/></svg>
+      <span class="box-title">Bắt đầu với 5 lệnh quan trọng nhất</span>
+      <p>Nếu mới dùng Claude Code, hãy làm quen 5 lệnh này trước: <code style="font-family:var(--font-mono);font-size:13px">/clear</code> (reset chat), <code style="font-family:var(--font-mono);font-size:13px">/compact</code> (tiết kiệm context), <code style="font-family:var(--font-mono);font-size:13px">/plan</code> (lên kế hoạch trước khi code), <code style="font-family:var(--font-mono);font-size:13px">/code-review</code> (review tự động), và <code style="font-family:var(--font-mono);font-size:13px">/memory</code> (quản lý project memory). Năm lệnh này bao phủ 80% workflow hàng ngày.</p>
+    </div>
+  </section>
+
+  <!-- ============ CTA ============ -->
+  <div class="cta">
+    <h2>Muốn thêm mã lệnh Claude?</h2>
+    <p>Kênh Cường Mê AI chia sẻ thêm nhiều mã lệnh thực chiến — kèm video demo rõ ràng, tài liệu chi tiết, và bộ prompt template tải về miễn phí.</p>
+    <a class="btn btn-dark" href="https://youtube.com/@cuongmeai" target="_blank" rel="noopener">Theo dõi Cường Mê AI</a>
+  </div>
+
+  <!-- ============ NGUỒN THAM KHẢO ============ -->
+  <aside class="sources" aria-label="Nguồn tham khảo">
+    <div class="label">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M4 5a2 2 0 0 1 2-2h12v18H6a2 2 0 0 1-2-2V5Z"/><path d="M18 17H6a2 2 0 0 0-2 2"/></svg>
+      Nguồn tham khảo
+    </div>
+    <ol>
+      <li id="src-2"><a href="https://code.claude.com/docs/en/slash-commands" target="_blank" rel="noopener">Anthropic — Claude Code Slash Commands (Tài liệu chính thức)</a></li>
+      <li id="src-3"><a href="https://techbytes.app/claude-code-slash-commands" target="_blank" rel="noopener">TechBytes — All Claude Code Slash Commands (verified v2.1.92, tháng 4/2026)</a></li>
+    </ol>
+  </aside>
+
+</main>
+
+<script>
+function cmaCopy(id, btn){
+  var el = document.getElementById(id);
+  if(!el) return;
+  var text = el.textContent.trim();
+  navigator.clipboard.writeText(text).then(function(){ cmaFlash(btn, 'Đã copy!'); });
+}
+function cmaDownload(id, filename){
+  var el = document.getElementById(id);
+  if(!el) return;
+  var text = el.textContent.trim();
+  var ext = (filename||'').split('.').pop().toLowerCase();
+  var type = ext === 'json' ? 'application/json' : (ext === 'md' ? 'text/markdown' : 'text/plain');
+  var blob = new Blob([text], {type: type + ';charset=utf-8'});
+  var url = URL.createObjectURL(blob);
+  var a = document.createElement('a');
+  a.href = url; a.download = filename || 'codes.txt';
+  document.body.appendChild(a); a.click();
+  document.body.removeChild(a); URL.revokeObjectURL(url);
+}
+function cmaToggle(id, btn){
+  var el = document.getElementById(id);
+  if(!el) return;
+  var isHidden = el.hasAttribute('hidden');
+  if(isHidden){ el.removeAttribute('hidden'); } else { el.setAttribute('hidden',''); }
+  btn.classList.toggle('open', isHidden);
+  var l = btn.querySelector('.lbl');
+  if(l) l.textContent = isHidden ? 'Thu gọn' : 'Xem chi tiết';
+}
+function cmaFlash(btn, msg){
+  if(!btn) return;
+  var l = btn.querySelector('.lbl'); if(!l) return;
+  var old = l.textContent; l.textContent = msg;
+  setTimeout(function(){ l.textContent = old; }, 1500);
+}
+function cmaCrc32(bytes){
+  var crc = 0xFFFFFFFF;
+  for(var i=0;i<bytes.length;i++){
+    var c = (crc ^ bytes[i]) & 0xFF;
+    for(var k=0;k<8;k++){ c = (c & 1) ? (0xEDB88320 ^ (c>>>1)) : (c>>>1); }
+    crc = (crc>>>8) ^ c;
+  }
+  return (crc ^ 0xFFFFFFFF) >>> 0;
+}
+function cmaZip(configId, zipName, btn){
+  var cfg;
+  try { cfg = JSON.parse(document.getElementById(configId).textContent); } catch(e){ return; }
+  var enc = new TextEncoder();
+  var out = [], central = [], count = 0;
+  function u16(a,n){ a.push(n&0xFF,(n>>>8)&0xFF); }
+  function u32(a,n){ a.push(n&0xFF,(n>>>8)&0xFF,(n>>>16)&0xFF,(n>>>24)&0xFF); }
+  function bytes(a,b){ for(var i=0;i<b.length;i++) a.push(b[i]); }
+  cfg.forEach(function(item){
+    var src = document.getElementById(item.id); if(!src) return;
+    var nameB = enc.encode(item.filename);
+    var dataB = enc.encode(src.textContent.trim());
+    var crc = cmaCrc32(dataB), offset = out.length;
+    u32(out,0x04034b50); u16(out,20); u16(out,0x0800); u16(out,0); u16(out,0); u16(out,0);
+    u32(out,crc); u32(out,dataB.length); u32(out,dataB.length); u16(out,nameB.length); u16(out,0);
+    bytes(out,nameB); bytes(out,dataB);
+    u32(central,0x02014b50); u16(central,20); u16(central,20); u16(central,0x0800); u16(central,0); u16(central,0); u16(central,0);
+    u32(central,crc); u32(central,dataB.length); u32(central,dataB.length);
+    u16(central,nameB.length); u16(central,0); u16(central,0); u16(central,0); u16(central,0); u32(central,0);
+    u32(central,offset); bytes(central,nameB);
+    count++;
+  });
+  var cdOffset = out.length;
+  var all = out.concat(central);
+  u32(all,0x06054b50); u16(all,0); u16(all,0); u16(all,count); u16(all,count);
+  u32(all,central.length); u32(all,cdOffset); u16(all,0);
+  var blob = new Blob([new Uint8Array(all)], {type:'application/zip'});
+  var url = URL.createObjectURL(blob);
+  var a = document.createElement('a'); a.href = url; a.download = zipName || 'codes.zip';
+  document.body.appendChild(a); a.click(); document.body.removeChild(a); URL.revokeObjectURL(url);
+  if(btn) cmaFlash(btn, 'Đang tải…');
+}
+function cmaPack(bundleId, zipName, btn){
+  var cfg;
+  try { cfg = JSON.parse(document.getElementById(bundleId).textContent); } catch(e){ return; }
+  if(cfg.length === 1){
+    cmaDownload(cfg[0].id, cfg[0].filename.split('/').pop());
+    if(btn) cmaFlash(btn, 'Đang tải…');
+  } else {
+    cmaZip(bundleId, zipName, btn);
+  }
+}
+</script>
+
+</body>
+</html>
